@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "meta": {
+    "lastScanned": "2026-07-30T20:13:04.216Z",
+    "fileCount": 10,
+    "hits": 0,
+    "misses": 0,
+    "renderedHash": "95fe99ee8eeb5454305063e3b1e3b074b2cf165c8e70bbc200604706e16b5ba2",
+    "storeUpdatedAt": "2026-07-30T20:13:04.217Z"
+  },
+  "files": {
+    ".claude/commands/reframe.md": {
+      "description": "Mode: migrate [framework]",
+      "tokens": 551,
+      "hash": "17a75695be5d4629",
+      "size": 2221,
+      "mtimeMs": 1785442384140.088,
+      "updatedAt": "2026-07-30T20:13:04.181Z",
+      "source": "scan"
+    },
+    ".claude/commands/security-audit.md": {
+      "description": "Layer 1 — Dependencies",
+      "tokens": 510,
+      "hash": "e6f7e0b7337c9c86",
+      "size": 2060,
+      "mtimeMs": 1785442384138.1848,
+      "updatedAt": "2026-07-30T20:13:04.183Z",
+      "source": "scan"
+    },
+    ".claude/rules/openwolf.md": {
+      "description": "",
+      "tokens": 328,
+      "hash": "6d735b2c1c54a916",
+      "size": 1323,
+      "mtimeMs": 1785442384004.9675,
+      "updatedAt": "2026-07-30T20:13:04.185Z",
+      "source": "scan"
+    },
+    ".claude/settings.json": {
+      "description": "",
+      "tokens": 514,
+      "hash": "f68759bb50af5ee4",
+      "size": 1799,
+      "mtimeMs": 1785442384001.9707,
+      "updatedAt": "2026-07-30T20:13:04.198Z",
+      "source": "scan"
+    },
+    ".codex/config.toml": {
+      "description": "",
+      "tokens": 7,
+      "hash": "d37497c327812159",
+      "size": 24,
+      "mtimeMs": 1785442384129.4143,
+      "updatedAt": "2026-07-30T20:13:04.201Z",
+      "source": "scan"
+    },
+    ".codex/hooks.json": {
+      "description": "",
+      "tokens": 629,
+      "hash": "e81eda1005e01386",
+      "size": 2201,
+      "mtimeMs": 1785442384128.415,
+      "updatedAt": "2026-07-30T20:13:04.202Z",
+      "source": "scan"
+    },
+    ".codex/prompts/reframe.md": {
+      "description": "Mode: migrate [framework]",
+      "tokens": 551,
+      "hash": "17a75695be5d4629",
+      "size": 2221,
+      "mtimeMs": 1785442384145.5476,
+      "updatedAt": "2026-07-30T20:13:04.204Z",
+      "source": "scan"
+    },
+    ".codex/prompts/security-audit.md": {
+      "description": "Layer 1 — Dependencies",
+      "tokens": 510,
+      "hash": "e6f7e0b7337c9c86",
+      "size": 2060,
+      "mtimeMs": 1785442384143.3528,
+      "updatedAt": "2026-07-30T20:13:04.205Z",
+      "source": "scan"
+    },
+    "AGENTS.md": {
+      "description": "OpenWolf",
+      "tokens": 68,
+      "hash": "8c90778623bf50ac",
+      "size": 271,
+      "mtimeMs": 1785442384131.178,
+      "updatedAt": "2026-07-30T20:13:04.206Z",
+      "source": "scan"
+    },
+    "CLAUDE.md": {
+      "description": "OpenWolf",
+      "tokens": 57,
+      "hash": "b1ca356fa9d5f3a6",
+      "size": 225,
+      "mtimeMs": 1785442384006.965,
+      "updatedAt": "2026-07-30T20:13:04.207Z",
+      "source": "scan"
+    }
+  }
+}

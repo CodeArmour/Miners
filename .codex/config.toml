@@ -1,0 +1,13 @@
+# Conservative project configuration.
+# Agent behavior is defined by .codex/agents/*.toml and AGENTS.md.
+# Merge existing supported settings here instead of replacing them.
+
+[features]
+hooks = true
+multi_agent = true
+
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 5
+interrupt_message = true
+default_subagent_reasoning_effort = "high"
