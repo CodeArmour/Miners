@@ -17,3 +17,4 @@ Only Developer changes application code. The Coordinator saves every returned re
 5. Create tasks from `docs/workflow/templates/`.
 
 Do not copy the example placeholders literally into runtime task paths; replace `MINERS-###-short-title` with the assigned task ID and slug.
+# Miners
