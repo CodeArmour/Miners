@@ -50,3 +50,7 @@ Each role runs in a separate user-controlled CLI window. The Coordinator validat
 - QA, Reviewer, and Status follow their role-specific ownership rules in `AGENTS.md`.
 - Evidence is required for every gate.
 - No destructive Git commands.
+
+## Post-validation resolution
+
+After implementation, QA, and Reviewer passed, the user explicitly approved the existing archival commit/push as an exception to the original no-commit/no-push constraint. The original constraint remains the historical implementation requirement; Status must document this user-authorized exception and assess AC-011 accordingly. No history rewrite or force-push is authorized.

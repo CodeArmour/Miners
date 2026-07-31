@@ -24,7 +24,7 @@ for (const viewport of viewports) {
     await expect(
       page.getByRole("heading", {
         level: 1,
-        name: /friendly technology.*serious outcomes/i,
+        name: /we build software that moves ideas forward/i,
       }),
     ).toBeVisible();
 
@@ -33,8 +33,20 @@ for (const viewport of viewports) {
     );
     const accessibility = await new AxeBuilder({ page }).analyze();
 
+    const header = page.locator(".site-header");
+    const headerBefore = await header.boundingBox();
+    await page.evaluate(() => window.scrollTo(0, 1800));
+    await page.waitForTimeout(100);
+    const headerAfter = await header.boundingBox();
+    expect(headerAfter?.y ?? -1).toBeGreaterThanOrEqual(0);
+    if (viewport.width >= 900) {
+      expect(headerBefore?.width ?? viewport.width).toBeLessThanOrEqual(1312);
+      expect(headerBefore?.x ?? 0).toBeGreaterThan(0);
+    }
+    await page.evaluate(() => window.scrollTo(0, 0));
+
     await page.screenshot({
-      path: `test-results/MINERS-000/${viewport.name}.png`,
+      path: `test-results/MINERS-002/${viewport.name}.png`,
       fullPage: true,
     });
 
@@ -42,5 +54,6 @@ for (const viewport of viewports) {
     expect(accessibility.violations).toEqual([]);
     expect(consoleErrors).toEqual([]);
     expect(pageErrors).toEqual([]);
+    await expect(page.getByRole("button", { name: /ask miners/i })).toBeVisible();
   });
 }
