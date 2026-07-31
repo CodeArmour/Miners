@@ -1,5 +1,23 @@
 import type { FoundationFeature } from "@/types/foundation";
 
+const accentClasses = [
+  "bg-brand-sky text-text-primary",
+  "bg-brand-mint text-text-primary",
+  "bg-neutral-graphite text-white",
+];
+
+const accentSecondaryClasses = [
+  "text-text-primary",
+  "text-text-primary",
+  "text-white/75",
+];
+
+const accentForegroundClasses = [
+  "text-text-primary",
+  "text-text-primary",
+  "text-white",
+];
+
 export function FeatureCard({
   feature,
   index,
@@ -8,15 +26,23 @@ export function FeatureCard({
   index: number;
 }) {
   return (
-    <article className="group rounded-2xl border border-white/10 bg-white/5 p-5 transition-colors hover:bg-white/8">
-      <div className="mb-8 flex items-center justify-between">
-        <span className="font-mono text-xs tracking-[0.18em] text-cyan-300">
-          {feature.marker}
+    <article
+      className={`flex min-h-[180px] flex-col justify-end rounded-[28px] p-7 ${accentClasses[index % accentClasses.length]}`}
+    >
+      <div className="flex items-end justify-between gap-4">
+        <div>
+          <p className={`font-label ${accentForegroundClasses[index % accentForegroundClasses.length]}`}>
+            {feature.marker}
+          </p>
+          <h2 className="font-card-title mt-5">
+            {feature.title}
+          </h2>
+        </div>
+        <span className={`font-label ${accentSecondaryClasses[index % accentSecondaryClasses.length]}`}>
+          0{index + 1}
         </span>
-        <span className="text-xs text-slate-400">0{index + 1}</span>
       </div>
-      <h2 className="text-lg font-semibold text-white">{feature.title}</h2>
-      <p className="mt-2 text-sm leading-6 text-slate-400">
+      <p className={`mt-2 max-w-md text-sm leading-6 ${accentSecondaryClasses[index % accentSecondaryClasses.length]}`}>
         {feature.description}
       </p>
     </article>

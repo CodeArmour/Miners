@@ -22,7 +22,10 @@ for (const viewport of viewports) {
     await page.setViewportSize(viewport);
     await page.goto("/");
     await expect(
-      page.getByRole("heading", { level: 1, name: /built on solid ground/i }),
+      page.getByRole("heading", {
+        level: 1,
+        name: /friendly technology.*serious outcomes/i,
+      }),
     ).toBeVisible();
 
     const hasHorizontalOverflow = await page.evaluate(

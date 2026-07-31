@@ -1,9 +1,34 @@
 @import "tailwindcss";
 
 :root {
-  color-scheme: dark;
-  --background: #07111f;
-  --foreground: #f8fafc;
+  color-scheme: light;
+  --surface-canvas: #f5fafa;
+  --surface-panel: #ffffff;
+  --brand-sky: #55c7f3;
+  --brand-mint: #73e6c2;
+  --neutral-graphite: #20262b;
+  --text-primary: #161b1f;
+  --text-secondary: #66727a;
+  --border-frost: #d8ebeb;
+  --glass-fill: rgb(255 255 255 / 62%);
+  --glass-shadow: 0 16px 40px rgb(32 38 43 / 10%);
+  --radius-brand: 28px;
+  --blur-glass: 14px;
+  --background: var(--surface-canvas);
+  --foreground: var(--text-primary);
+}
+
+@theme inline {
+  --color-surface-canvas: var(--surface-canvas);
+  --color-surface-panel: var(--surface-panel);
+  --color-brand-sky: var(--brand-sky);
+  --color-brand-mint: var(--brand-mint);
+  --color-neutral-graphite: var(--neutral-graphite);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-border-frost: var(--border-frost);
+  --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+  --font-display: Manrope, Inter, ui-sans-serif, system-ui, sans-serif;
 }
 
 * {
@@ -18,35 +43,52 @@ body {
   margin: 0;
   background: var(--background);
   color: var(--foreground);
-  font-family:
-    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    sans-serif;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
 }
 
-.orb {
-  position: absolute;
-  border-radius: 9999px;
-  pointer-events: none;
-  filter: blur(1px);
-  opacity: 0.55;
+.font-label {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.2;
 }
 
-.orb-one {
-  top: -12rem;
-  right: -8rem;
-  width: 30rem;
-  height: 30rem;
-  background: radial-gradient(circle, rgb(8 145 178 / 0.2), transparent 68%);
+.font-display {
+  font-family: Manrope, Inter, ui-sans-serif, system-ui, sans-serif;
+  font-size: clamp(3rem, 8vw, 4.5rem);
+  font-weight: 800;
+  line-height: 1.04;
+  letter-spacing: -1.8px;
 }
 
-.orb-two {
-  bottom: -16rem;
-  left: -14rem;
-  width: 34rem;
-  height: 34rem;
-  background: radial-gradient(circle, rgb(30 64 175 / 0.18), transparent 68%);
+.font-card-title {
+  font-family: Manrope, Inter, ui-sans-serif, system-ui, sans-serif;
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  font-weight: 800;
+  line-height: 1.04;
+  letter-spacing: -1px;
+}
+
+.font-body {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.55;
+}
+
+.glass-panel {
+  background: var(--glass-fill);
+  border: 1px solid var(--border-frost);
+  border-radius: var(--radius-brand);
+  box-shadow: var(--glass-shadow);
+  backdrop-filter: blur(var(--blur-glass));
+}
+
+.focus-ring:focus-visible {
+  outline: 3px solid var(--brand-sky);
+  outline-offset: 4px;
 }
 
 ::selection {
-  background: rgb(103 232 249 / 0.28);
+  background: rgb(85 199 243 / 35%);
 }
