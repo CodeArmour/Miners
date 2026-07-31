@@ -1,12 +1,12 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-07-30T20:13:04.216Z",
-    "fileCount": 10,
+    "lastScanned": "2026-07-31T13:40:06.215Z",
+    "fileCount": 65,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "95fe99ee8eeb5454305063e3b1e3b074b2cf165c8e70bbc200604706e16b5ba2",
-    "storeUpdatedAt": "2026-07-30T20:13:04.217Z"
+    "renderedHash": "bf1a3c0df595eb6fc704639f89b7e221b17c4ef13126b2236bbd0c507c10a064",
+    "storeUpdatedAt": "2026-07-31T13:40:06.218Z"
   },
   "files": {
     ".claude/commands/reframe.md": {
@@ -15,7 +15,7 @@
       "hash": "17a75695be5d4629",
       "size": 2221,
       "mtimeMs": 1785442384140.088,
-      "updatedAt": "2026-07-30T20:13:04.181Z",
+      "updatedAt": "2026-07-31T13:40:06.134Z",
       "source": "scan"
     },
     ".claude/commands/security-audit.md": {
@@ -24,7 +24,7 @@
       "hash": "e6f7e0b7337c9c86",
       "size": 2060,
       "mtimeMs": 1785442384138.1848,
-      "updatedAt": "2026-07-30T20:13:04.183Z",
+      "updatedAt": "2026-07-31T13:40:06.135Z",
       "source": "scan"
     },
     ".claude/rules/openwolf.md": {
@@ -33,7 +33,7 @@
       "hash": "6d735b2c1c54a916",
       "size": 1323,
       "mtimeMs": 1785442384004.9675,
-      "updatedAt": "2026-07-30T20:13:04.185Z",
+      "updatedAt": "2026-07-31T13:40:06.136Z",
       "source": "scan"
     },
     ".claude/settings.json": {
@@ -42,16 +42,61 @@
       "hash": "f68759bb50af5ee4",
       "size": 1799,
       "mtimeMs": 1785442384001.9707,
-      "updatedAt": "2026-07-30T20:13:04.198Z",
+      "updatedAt": "2026-07-31T13:40:06.137Z",
+      "source": "scan"
+    },
+    ".codex/agents/developer.toml": {
+      "description": "",
+      "tokens": 659,
+      "hash": "a0790abb8681ad5b",
+      "size": 2307,
+      "mtimeMs": 1785448064000,
+      "updatedAt": "2026-07-31T13:40:06.137Z",
+      "source": "scan"
+    },
+    ".codex/agents/planner.toml": {
+      "description": "",
+      "tokens": 579,
+      "hash": "65773c381cf601ac",
+      "size": 2028,
+      "mtimeMs": 1785448063000,
+      "updatedAt": "2026-07-31T13:40:06.138Z",
+      "source": "scan"
+    },
+    ".codex/agents/qa.toml": {
+      "description": "",
+      "tokens": 640,
+      "hash": "92d0cb219e659b2e",
+      "size": 2239,
+      "mtimeMs": 1785448065000,
+      "updatedAt": "2026-07-31T13:40:06.138Z",
+      "source": "scan"
+    },
+    ".codex/agents/reviewer.toml": {
+      "description": "",
+      "tokens": 562,
+      "hash": "ea2596a2a0be9df4",
+      "size": 1967,
+      "mtimeMs": 1785448065000,
+      "updatedAt": "2026-07-31T13:40:06.139Z",
+      "source": "scan"
+    },
+    ".codex/agents/status.toml": {
+      "description": "",
+      "tokens": 516,
+      "hash": "2fc62af80af79c59",
+      "size": 1808,
+      "mtimeMs": 1785448066000,
+      "updatedAt": "2026-07-31T13:40:06.140Z",
       "source": "scan"
     },
     ".codex/config.toml": {
-      "description": "",
-      "tokens": 7,
-      "hash": "d37497c327812159",
-      "size": 24,
-      "mtimeMs": 1785442384129.4143,
-      "updatedAt": "2026-07-30T20:13:04.201Z",
+      "description": "Conservative project configuration.",
+      "tokens": 100,
+      "hash": "ca4b109edcd2f464",
+      "size": 348,
+      "mtimeMs": 1785448968223.5103,
+      "updatedAt": "2026-07-31T13:40:06.142Z",
       "source": "scan"
     },
     ".codex/hooks.json": {
@@ -60,7 +105,7 @@
       "hash": "e81eda1005e01386",
       "size": 2201,
       "mtimeMs": 1785442384128.415,
-      "updatedAt": "2026-07-30T20:13:04.202Z",
+      "updatedAt": "2026-07-31T13:40:06.143Z",
       "source": "scan"
     },
     ".codex/prompts/reframe.md": {
@@ -69,7 +114,7 @@
       "hash": "17a75695be5d4629",
       "size": 2221,
       "mtimeMs": 1785442384145.5476,
-      "updatedAt": "2026-07-30T20:13:04.204Z",
+      "updatedAt": "2026-07-31T13:40:06.144Z",
       "source": "scan"
     },
     ".codex/prompts/security-audit.md": {
@@ -78,16 +123,70 @@
       "hash": "e6f7e0b7337c9c86",
       "size": 2060,
       "mtimeMs": 1785442384143.3528,
-      "updatedAt": "2026-07-30T20:13:04.205Z",
+      "updatedAt": "2026-07-31T13:40:06.144Z",
+      "source": "scan"
+    },
+    ".gitignore": {
+      "description": "Git ignore rules",
+      "tokens": 66,
+      "hash": "a6cd917de2a03767",
+      "size": 244,
+      "mtimeMs": 1785454413066.085,
+      "updatedAt": "2026-07-31T13:40:06.144Z",
+      "source": "scan"
+    },
+    "agents/developer.toml": {
+      "description": "",
+      "tokens": 3464,
+      "hash": "470070f849dc55f4",
+      "size": 12124,
+      "mtimeMs": 1785457497546.429,
+      "updatedAt": "2026-07-31T13:40:06.146Z",
+      "source": "scan"
+    },
+    "agents/planner.toml": {
+      "description": "",
+      "tokens": 1504,
+      "hash": "444a0b78b43a77a5",
+      "size": 5280,
+      "mtimeMs": 1785447367946.1555,
+      "updatedAt": "2026-07-31T13:40:06.148Z",
+      "source": "scan"
+    },
+    "agents/qa.toml": {
+      "description": "",
+      "tokens": 1540,
+      "hash": "8a45643685150df0",
+      "size": 5394,
+      "mtimeMs": 1785447511224.4326,
+      "updatedAt": "2026-07-31T13:40:06.149Z",
+      "source": "scan"
+    },
+    "agents/reviewer.toml": {
+      "description": "",
+      "tokens": 1218,
+      "hash": "90ba4905686df046",
+      "size": 4267,
+      "mtimeMs": 1785447678818.4978,
+      "updatedAt": "2026-07-31T13:40:06.151Z",
+      "source": "scan"
+    },
+    "agents/status.toml": {
+      "description": "",
+      "tokens": 1276,
+      "hash": "770093f4f1cf497d",
+      "size": 4472,
+      "mtimeMs": 1785447664571.6074,
+      "updatedAt": "2026-07-31T13:40:06.152Z",
       "source": "scan"
     },
     "AGENTS.md": {
       "description": "OpenWolf",
-      "tokens": 68,
-      "hash": "8c90778623bf50ac",
-      "size": 271,
-      "mtimeMs": 1785442384131.178,
-      "updatedAt": "2026-07-30T20:13:04.206Z",
+      "tokens": 3367,
+      "hash": "9c87a51765147f2c",
+      "size": 13626,
+      "mtimeMs": 1785460793315.3884,
+      "updatedAt": "2026-07-31T13:40:06.153Z",
       "source": "scan"
     },
     "CLAUDE.md": {
@@ -96,7 +195,412 @@
       "hash": "b1ca356fa9d5f3a6",
       "size": 225,
       "mtimeMs": 1785442384006.965,
-      "updatedAt": "2026-07-30T20:13:04.207Z",
+      "updatedAt": "2026-07-31T13:40:06.154Z",
+      "source": "scan"
+    },
+    "docs/workflow/README.md": {
+      "description": "Project documentation",
+      "tokens": 275,
+      "hash": "ee185e0c997083f8",
+      "size": 1145,
+      "mtimeMs": 1785448067000,
+      "updatedAt": "2026-07-31T13:40:06.155Z",
+      "source": "scan"
+    },
+    "docs/workflow/task-registry.md": {
+      "description": "Task Registry",
+      "tokens": 130,
+      "hash": "4b660712a184643c",
+      "size": 519,
+      "mtimeMs": 1785461144630.8252,
+      "updatedAt": "2026-07-31T13:40:06.156Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-000-nextjs-project-foundation/00-task-brief.md": {
+      "description": "MINERS-000 — Next.js Project Foundation",
+      "tokens": 503,
+      "hash": "8ab045840f4269a0",
+      "size": 2019,
+      "mtimeMs": 1785453187592.2314,
+      "updatedAt": "2026-07-31T13:40:06.158Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-000-nextjs-project-foundation/01-planner-report.md": {
+      "description": "MINERS-000 — Next.js Project Foundation",
+      "tokens": 4747,
+      "hash": "376f28554c1f50d4",
+      "size": 19048,
+      "mtimeMs": 1785453947163.961,
+      "updatedAt": "2026-07-31T13:40:06.160Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-000-nextjs-project-foundation/02-developer-report.md": {
+      "description": "MINERS-000 — Next.js Project Foundation",
+      "tokens": 6683,
+      "hash": "a0e9b3603c638ec8",
+      "size": 26769,
+      "mtimeMs": 1785463854655.9216,
+      "updatedAt": "2026-07-31T13:40:06.162Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-000-nextjs-project-foundation/03-qa-report.md": {
+      "description": "MINERS-000 — Next.js Project Foundation",
+      "tokens": 6176,
+      "hash": "22053acac6c8bddb",
+      "size": 24835,
+      "mtimeMs": 1785464018560.691,
+      "updatedAt": "2026-07-31T13:40:06.163Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-000-nextjs-project-foundation/prompts/corrections/round-01-developer-prompt.md": {
+      "description": "MINERS-000 — Developer Correction Round 01",
+      "tokens": 680,
+      "hash": "d4f5a3ef00be87db",
+      "size": 2729,
+      "mtimeMs": 1785461147102.9878,
+      "updatedAt": "2026-07-31T13:40:06.165Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-000-nextjs-project-foundation/prompts/corrections/round-01-qa-prompt.md": {
+      "description": "MINERS-000 — QA Revalidation Round 01",
+      "tokens": 693,
+      "hash": "a848e6f1a8de4235",
+      "size": 2780,
+      "mtimeMs": 1785461990861.4358,
+      "updatedAt": "2026-07-31T13:40:06.166Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-000-nextjs-project-foundation/prompts/corrections/round-02-developer-prompt.md": {
+      "description": "MINERS-000 — Developer Correction Round 02",
+      "tokens": 567,
+      "hash": "e3d5ed465e6bced8",
+      "size": 2279,
+      "mtimeMs": 1785462443543.173,
+      "updatedAt": "2026-07-31T13:40:06.167Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-000-nextjs-project-foundation/prompts/corrections/round-02-qa-prompt.md": {
+      "description": "MINERS-000 — QA Revalidation Round 02",
+      "tokens": 541,
+      "hash": "fbd590a4f7818120",
+      "size": 2175,
+      "mtimeMs": 1785462874776.2073,
+      "updatedAt": "2026-07-31T13:40:06.168Z",
+      "source": "scan"
+    },
+    "docs/workflow/templates/correction-round.md": {
+      "description": "Correction Round",
+      "tokens": 163,
+      "hash": "79cbfc7d1ee7785e",
+      "size": 650,
+      "mtimeMs": 1785448072000,
+      "updatedAt": "2026-07-31T13:40:06.170Z",
+      "source": "scan"
+    },
+    "docs/workflow/templates/defect-report.md": {
+      "description": "Defect Report",
+      "tokens": 118,
+      "hash": "53c5fbe865aa06a6",
+      "size": 470,
+      "mtimeMs": 1785448071000,
+      "updatedAt": "2026-07-31T13:40:06.172Z",
+      "source": "scan"
+    },
+    "docs/workflow/templates/developer-report.md": {
+      "description": "Developer Report",
+      "tokens": 179,
+      "hash": "ad27ef6d1d53ab35",
+      "size": 718,
+      "mtimeMs": 1785448069000,
+      "updatedAt": "2026-07-31T13:40:06.174Z",
+      "source": "scan"
+    },
+    "docs/workflow/templates/planner-report.md": {
+      "description": "Planner Report",
+      "tokens": 124,
+      "hash": "d9380adf250ea92f",
+      "size": 497,
+      "mtimeMs": 1785448069000,
+      "updatedAt": "2026-07-31T13:40:06.175Z",
+      "source": "scan"
+    },
+    "docs/workflow/templates/qa-report.md": {
+      "description": "QA Report",
+      "tokens": 141,
+      "hash": "f4d2e07617d58421",
+      "size": 563,
+      "mtimeMs": 1785448070000,
+      "updatedAt": "2026-07-31T13:40:06.175Z",
+      "source": "scan"
+    },
+    "docs/workflow/templates/reviewer-report.md": {
+      "description": "Reviewer Report",
+      "tokens": 135,
+      "hash": "aa7e23e56a6ecbdb",
+      "size": 540,
+      "mtimeMs": 1785448070000,
+      "updatedAt": "2026-07-31T13:40:06.176Z",
+      "source": "scan"
+    },
+    "docs/workflow/templates/status-report.md": {
+      "description": "Status Report",
+      "tokens": 130,
+      "hash": "e6a5e6823c849305",
+      "size": 521,
+      "mtimeMs": 1785448071000,
+      "updatedAt": "2026-07-31T13:40:06.177Z",
+      "source": "scan"
+    },
+    "docs/workflow/templates/task-brief.md": {
+      "description": "Task Brief",
+      "tokens": 129,
+      "hash": "de846d5c66d306be",
+      "size": 517,
+      "mtimeMs": 1785448068000,
+      "updatedAt": "2026-07-31T13:40:06.178Z",
+      "source": "scan"
+    },
+    "eslint.config.mjs": {
+      "description": "ESLint flat configuration",
+      "tokens": 103,
+      "hash": "d1752edb02593fa2",
+      "size": 386,
+      "mtimeMs": 1785454420616.7048,
+      "updatedAt": "2026-07-31T13:40:06.179Z",
+      "source": "scan"
+    },
+    "next-env.d.ts": {
+      "description": "/ <reference types=\"next\" />",
+      "tokens": 72,
+      "hash": "7ad303e40d4fddf4",
+      "size": 251,
+      "mtimeMs": 1785464060289.4087,
+      "updatedAt": "2026-07-31T13:40:06.179Z",
+      "source": "scan"
+    },
+    "next.config.ts": {
+      "description": "Next.js configuration",
+      "tokens": 38,
+      "hash": "c5efcdb15ee66db5",
+      "size": 130,
+      "mtimeMs": 1785454414616.0015,
+      "updatedAt": "2026-07-31T13:40:06.179Z",
+      "source": "scan"
+    },
+    "package-lock.json": {
+      "description": "npm lock file",
+      "tokens": 78798,
+      "hash": "a5abf4fc580238ad",
+      "size": 275792,
+      "mtimeMs": 1785463180741.3723,
+      "updatedAt": "2026-07-31T13:40:06.181Z",
+      "source": "scan"
+    },
+    "package.json": {
+      "description": "Node.js package manifest",
+      "tokens": 255,
+      "hash": "91806dae2999fa52",
+      "size": 891,
+      "mtimeMs": 1785463078145.782,
+      "updatedAt": "2026-07-31T13:40:06.181Z",
+      "source": "scan"
+    },
+    "playwright.config.ts": {
+      "description": "Playwright test configuration",
+      "tokens": 117,
+      "hash": "c39433ab9fbb637b",
+      "size": 408,
+      "mtimeMs": 1785463079726.6858,
+      "updatedAt": "2026-07-31T13:40:06.181Z",
+      "source": "scan"
+    },
+    "postcss.config.mjs": {
+      "description": "Declares config",
+      "tokens": 26,
+      "hash": "dfac7ac2d86d326a",
+      "size": 94,
+      "mtimeMs": 1785454419111.5752,
+      "updatedAt": "2026-07-31T13:40:06.182Z",
+      "source": "scan"
+    },
+    "README-APP.md": {
+      "description": "Miners application",
+      "tokens": 124,
+      "hash": "3680107f9b1c7fc8",
+      "size": 495,
+      "mtimeMs": 1785454425232.159,
+      "updatedAt": "2026-07-31T13:40:06.182Z",
+      "source": "scan"
+    },
+    "README.md": {
+      "description": "Project documentation",
+      "tokens": 273,
+      "hash": "12b4d0328f18056e",
+      "size": 1100,
+      "mtimeMs": 1785450480437.3694,
+      "updatedAt": "2026-07-31T13:40:06.182Z",
+      "source": "scan"
+    },
+    "src/app/globals.css": {
+      "description": "Styles: 4 rules, 2 vars",
+      "tokens": 248,
+      "hash": "55cd7efc47195885",
+      "size": 866,
+      "mtimeMs": 1785454683731.8574,
+      "updatedAt": "2026-07-31T13:40:06.185Z",
+      "source": "scan"
+    },
+    "src/app/layout.tsx": {
+      "description": "metadata",
+      "tokens": 120,
+      "hash": "b408f19de9f69aa2",
+      "size": 419,
+      "mtimeMs": 1785454682202.728,
+      "updatedAt": "2026-07-31T13:40:06.186Z",
+      "source": "scan"
+    },
+    "src/app/page.test.tsx": {
+      "description": "html",
+      "tokens": 165,
+      "hash": "85011e30e7ddf81b",
+      "size": 575,
+      "mtimeMs": 1785454444080.896,
+      "updatedAt": "2026-07-31T13:40:06.187Z",
+      "source": "scan"
+    },
+    "src/app/page.tsx": {
+      "description": "features",
+      "tokens": 868,
+      "hash": "52cd1c30677c117e",
+      "size": 3040,
+      "mtimeMs": 1785454817654.358,
+      "updatedAt": "2026-07-31T13:40:06.190Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "Home",
+          "kind": "fn",
+          "startLine": 26,
+          "endLine": 81,
+          "tokens": 655
+        }
+      ]
+    },
+    "src/components/feature-card.tsx": {
+      "description": "FeatureCard",
+      "tokens": 218,
+      "hash": "048806d029163f8e",
+      "size": 761,
+      "mtimeMs": 1785454816041.0825,
+      "updatedAt": "2026-07-31T13:40:06.191Z",
+      "source": "scan"
+    },
+    "src/components/foundation-status.tsx": {
+      "description": "FoundationStatus",
+      "tokens": 177,
+      "hash": "8fe7b955c53ecbdc",
+      "size": 617,
+      "mtimeMs": 1785454435277.9763,
+      "updatedAt": "2026-07-31T13:40:06.193Z",
+      "source": "scan"
+    },
+    "src/hooks/use-media-query.ts": {
+      "description": "Exports useMediaQuery",
+      "tokens": 138,
+      "hash": "64306af6f3b1b8e9",
+      "size": 482,
+      "mtimeMs": 1785454432768.05,
+      "updatedAt": "2026-07-31T13:40:06.194Z",
+      "source": "scan"
+    },
+    "src/lib/class-names.ts": {
+      "description": "Exports classNames",
+      "tokens": 40,
+      "hash": "1ace811987495757",
+      "size": 139,
+      "mtimeMs": 1785454430195.1907,
+      "updatedAt": "2026-07-31T13:40:06.195Z",
+      "source": "scan"
+    },
+    "src/types/foundation.ts": {
+      "description": "Exports FoundationFeature",
+      "tokens": 28,
+      "hash": "ff5b5b05ced1ca1e",
+      "size": 95,
+      "mtimeMs": 1785454427705.7534,
+      "updatedAt": "2026-07-31T13:40:06.197Z",
+      "source": "scan"
+    },
+    "START-CODEX-PROMPT.md": {
+      "description": "Coordinator Startup Prompt",
+      "tokens": 322,
+      "hash": "e75725c41f4bb5b1",
+      "size": 1295,
+      "mtimeMs": 1785448061000,
+      "updatedAt": "2026-07-31T13:40:06.197Z",
+      "source": "scan"
+    },
+    "test-results/MINERS-000/playwright/.last-run.json": {
+      "description": "",
+      "tokens": 13,
+      "hash": "91d1c43004802cd4",
+      "size": 45,
+      "mtimeMs": 1785463904378.782,
+      "updatedAt": "2026-07-31T13:40:06.199Z",
+      "source": "scan"
+    },
+    "tests/e2e/foundation.spec.ts": {
+      "description": "Declares viewports",
+      "tokens": 397,
+      "hash": "6a823f4989d48118",
+      "size": 1389,
+      "mtimeMs": 1785454750363.4634,
+      "updatedAt": "2026-07-31T13:40:06.200Z",
+      "source": "scan"
+    },
+    "tests/e2e/run-tests.mjs": {
+      "description": "port: stopServer, waitForServer",
+      "tokens": 445,
+      "hash": "ace106354c429c62",
+      "size": 1666,
+      "mtimeMs": 1785463739167.928,
+      "updatedAt": "2026-07-31T13:40:06.202Z",
+      "source": "scan"
+    },
+    "tsconfig.json": {
+      "description": "TypeScript configuration",
+      "tokens": 202,
+      "hash": "acf32a7a05946561",
+      "size": 704,
+      "mtimeMs": 1785454712277.0205,
+      "updatedAt": "2026-07-31T13:40:06.202Z",
+      "source": "scan"
+    },
+    "tsconfig.tsbuildinfo": {
+      "description": "",
+      "tokens": 36908,
+      "hash": "052cb7e9ca8f7194",
+      "size": 138404,
+      "mtimeMs": 1785463792536.05,
+      "updatedAt": "2026-07-31T13:40:06.203Z",
+      "source": "scan"
+    },
+    "VALIDATION.md": {
+      "description": "Package and Workflow Validation",
+      "tokens": 359,
+      "hash": "ff8803722dea1d58",
+      "size": 1438,
+      "mtimeMs": 1785448061000,
+      "updatedAt": "2026-07-31T13:40:06.203Z",
+      "source": "scan"
+    },
+    "vitest.config.ts": {
+      "description": "Vitest test configuration",
+      "tokens": 65,
+      "hash": "f9eb37ea9f259ae5",
+      "size": 225,
+      "mtimeMs": 1785454422155.173,
+      "updatedAt": "2026-07-31T13:40:06.203Z",
       "source": "scan"
     }
   }
