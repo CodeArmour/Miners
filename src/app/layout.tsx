@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 
 import "./globals.css";
+import { SiteHeader } from "@/components/site-header";
+import { ThemeProvider } from "@/components/theme-context";
+import { SiteFooter } from "@/components/site-footer";
 
 export const metadata: Metadata = {
   title: "Miners — Built on solid ground",
@@ -15,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body><ThemeProvider><SiteHeader />{children}<SiteFooter /></ThemeProvider></body>
     </html>
   );
 }

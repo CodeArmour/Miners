@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState, type RefObject } from "react";
 import Image from "next/image";
+import { useTheme } from "@/components/theme-context";
 
 const services = [
   "Web platforms",
@@ -183,8 +184,7 @@ function ArrowButton({
 }
 
 export default function Home() {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [dark, setDark] = useState(false);
+  const { dark } = useTheme();
   const [chatOpen, setChatOpen] = useState(false);
   const [servicePage, setServicePage] = useState(1);
   const [reviewPage, setReviewPage] = useState(1);
@@ -193,10 +193,6 @@ export default function Home() {
   const projectsRef = useRef<HTMLDivElement>(null);
   const reviewsRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
-    const close = (event: KeyboardEvent) =>
-      event.key === "Escape" && setMenuOpen(false);
-    window.addEventListener("keydown", close);
-    return () => window.removeEventListener("keydown", close);
   }, []);
   const scroll = (ref: RefObject<HTMLDivElement | null>, amount: number) =>
     ref.current?.scrollBy({ left: amount, behavior: "smooth" });
@@ -238,66 +234,6 @@ export default function Home() {
   };
   return (
     <main className={dark ? "home home-dark" : "home"}>
-      <header className="site-header glass-panel">
-        <a
-          className="brand focus-ring"
-          href="#top"
-          aria-label="Miners Group home"
-        >
-          <span className="brand-mark" aria-hidden="true">
-            M
-          </span>
-          <span>Miners Group</span>
-        </a>
-        <nav
-          id="primary-navigation"
-          className={menuOpen ? "main-nav is-open" : "main-nav"}
-          aria-label="Primary navigation"
-        >
-          {["Services", "Projects", "About", "Careers", "Contact"].map(
-            (item) => (
-              <a
-                className="focus-ring"
-                href={`#${item.toLowerCase()}`}
-                key={item}
-                onClick={() => setMenuOpen(false)}
-              >
-                {item}
-              </a>
-            ),
-          )}
-        </nav>
-        <div className="header-actions">
-          <button
-            type="button"
-            className="theme-toggle focus-ring"
-            aria-label="Toggle colour theme"
-            aria-pressed={dark}
-            onClick={() => setDark((value) => !value)}
-          >
-            <Icon name="moon" />
-          </button>
-          <a className="button button-ghost desktop-only" href="#contact">
-            Coffee chat
-          </a>
-          <a className="button button-dark desktop-only" href="#contact">
-            Start a project
-          </a>
-          <button
-            type="button"
-            className="menu-toggle focus-ring"
-            aria-expanded={menuOpen}
-            aria-controls="primary-navigation"
-            onClick={() => setMenuOpen((value) => !value)}
-          >
-            <Icon name={menuOpen ? "close" : "menu"} />
-            <span className="sr-only">
-              {menuOpen ? "Close menu" : "Open menu"}
-            </span>
-          </button>
-        </div>
-      </header>
-
       <section
         id="top"
         className="hero section-shell"
@@ -738,7 +674,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="site-footer section-shell">
+      {/* Legacy page-local footer removed; shared layout owns the footer. */}{/*
         <div>
           <a className="brand focus-ring" href="#top">
             <span className="brand-mark" aria-hidden="true">
@@ -767,7 +703,7 @@ export default function Home() {
           <br />
           Built with care.
         </p>
-      </footer>
+      */}
       <button
         type="button"
         className="ask-miners focus-ring"
