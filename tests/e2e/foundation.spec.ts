@@ -27,6 +27,7 @@ for (const viewport of viewports) {
         name: /we build software that moves ideas forward/i,
       }),
     ).toBeVisible();
+    await expect(page.getByRole("contentinfo")).toHaveCount(1);
 
     const hasHorizontalOverflow = await page.evaluate(
       () => document.documentElement.scrollWidth > window.innerWidth,
