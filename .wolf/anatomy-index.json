@@ -1,12 +1,12 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-07-31T13:40:06.215Z",
-    "fileCount": 65,
+    "lastScanned": "2026-08-02T23:43:13.952Z",
+    "fileCount": 135,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "bf1a3c0df595eb6fc704639f89b7e221b17c4ef13126b2236bbd0c507c10a064",
-    "storeUpdatedAt": "2026-07-31T13:40:06.218Z"
+    "renderedHash": "019a66897b593572a02ff9b07e294da800753f8006eb40e0b36a5651e237a343",
+    "storeUpdatedAt": "2026-08-02T23:43:13.956Z"
   },
   "files": {
     ".claude/commands/reframe.md": {
@@ -14,8 +14,8 @@
       "tokens": 551,
       "hash": "17a75695be5d4629",
       "size": 2221,
-      "mtimeMs": 1785442384140.088,
-      "updatedAt": "2026-07-31T13:40:06.134Z",
+      "mtimeMs": 1785711653973.4683,
+      "updatedAt": "2026-08-02T23:43:13.884Z",
       "source": "scan"
     },
     ".claude/commands/security-audit.md": {
@@ -23,8 +23,8 @@
       "tokens": 510,
       "hash": "e6f7e0b7337c9c86",
       "size": 2060,
-      "mtimeMs": 1785442384138.1848,
-      "updatedAt": "2026-07-31T13:40:06.135Z",
+      "mtimeMs": 1785711653969.9717,
+      "updatedAt": "2026-08-02T23:43:13.884Z",
       "source": "scan"
     },
     ".claude/rules/openwolf.md": {
@@ -32,8 +32,8 @@
       "tokens": 328,
       "hash": "6d735b2c1c54a916",
       "size": 1323,
-      "mtimeMs": 1785442384004.9675,
-      "updatedAt": "2026-07-31T13:40:06.136Z",
+      "mtimeMs": 1785711653753.784,
+      "updatedAt": "2026-08-02T23:43:13.885Z",
       "source": "scan"
     },
     ".claude/settings.json": {
@@ -41,53 +41,53 @@
       "tokens": 514,
       "hash": "f68759bb50af5ee4",
       "size": 1799,
-      "mtimeMs": 1785442384001.9707,
-      "updatedAt": "2026-07-31T13:40:06.137Z",
+      "mtimeMs": 1785711653751.787,
+      "updatedAt": "2026-08-02T23:43:13.886Z",
       "source": "scan"
     },
     ".codex/agents/developer.toml": {
-      "description": "",
-      "tokens": 659,
-      "hash": "a0790abb8681ad5b",
-      "size": 2307,
-      "mtimeMs": 1785448064000,
-      "updatedAt": "2026-07-31T13:40:06.137Z",
+      "description": "Implements approved scope, maintains tests, and supplies reproducible evidence.",
+      "tokens": 715,
+      "hash": "0f0c9e71b60f170f",
+      "size": 2503,
+      "mtimeMs": 1785713672405.6858,
+      "updatedAt": "2026-08-02T23:43:13.886Z",
       "source": "scan"
     },
     ".codex/agents/planner.toml": {
       "description": "",
-      "tokens": 579,
-      "hash": "65773c381cf601ac",
-      "size": 2028,
-      "mtimeMs": 1785448063000,
-      "updatedAt": "2026-07-31T13:40:06.138Z",
+      "tokens": 644,
+      "hash": "1550ba224a35ebb8",
+      "size": 2254,
+      "mtimeMs": 1785713796836.04,
+      "updatedAt": "2026-08-02T23:43:13.887Z",
       "source": "scan"
     },
     ".codex/agents/qa.toml": {
       "description": "",
-      "tokens": 640,
-      "hash": "92d0cb219e659b2e",
-      "size": 2239,
-      "mtimeMs": 1785448065000,
-      "updatedAt": "2026-07-31T13:40:06.138Z",
+      "tokens": 744,
+      "hash": "6705c9b7b71a2d6b",
+      "size": 2605,
+      "mtimeMs": 1785713778072.044,
+      "updatedAt": "2026-08-02T23:43:13.887Z",
       "source": "scan"
     },
     ".codex/agents/reviewer.toml": {
       "description": "",
-      "tokens": 562,
-      "hash": "ea2596a2a0be9df4",
-      "size": 1967,
-      "mtimeMs": 1785448065000,
-      "updatedAt": "2026-07-31T13:40:06.139Z",
+      "tokens": 674,
+      "hash": "db5e66a9f98703a5",
+      "size": 2361,
+      "mtimeMs": 1785713778073.0454,
+      "updatedAt": "2026-08-02T23:43:13.888Z",
       "source": "scan"
     },
     ".codex/agents/status.toml": {
       "description": "",
-      "tokens": 516,
-      "hash": "2fc62af80af79c59",
-      "size": 1808,
-      "mtimeMs": 1785448066000,
-      "updatedAt": "2026-07-31T13:40:06.140Z",
+      "tokens": 606,
+      "hash": "64c72454415d5266",
+      "size": 2120,
+      "mtimeMs": 1785713796836.9753,
+      "updatedAt": "2026-08-02T23:43:13.888Z",
       "source": "scan"
     },
     ".codex/config.toml": {
@@ -96,7 +96,7 @@
       "hash": "ca4b109edcd2f464",
       "size": 348,
       "mtimeMs": 1785448968223.5103,
-      "updatedAt": "2026-07-31T13:40:06.142Z",
+      "updatedAt": "2026-08-02T23:43:13.888Z",
       "source": "scan"
     },
     ".codex/hooks.json": {
@@ -104,8 +104,8 @@
       "tokens": 629,
       "hash": "e81eda1005e01386",
       "size": 2201,
-      "mtimeMs": 1785442384128.415,
-      "updatedAt": "2026-07-31T13:40:06.143Z",
+      "mtimeMs": 1785711653952.9353,
+      "updatedAt": "2026-08-02T23:43:13.889Z",
       "source": "scan"
     },
     ".codex/prompts/reframe.md": {
@@ -113,8 +113,8 @@
       "tokens": 551,
       "hash": "17a75695be5d4629",
       "size": 2221,
-      "mtimeMs": 1785442384145.5476,
-      "updatedAt": "2026-07-31T13:40:06.144Z",
+      "mtimeMs": 1785711653978.4722,
+      "updatedAt": "2026-08-02T23:43:13.890Z",
       "source": "scan"
     },
     ".codex/prompts/security-audit.md": {
@@ -122,17 +122,26 @@
       "tokens": 510,
       "hash": "e6f7e0b7337c9c86",
       "size": 2060,
-      "mtimeMs": 1785442384143.3528,
-      "updatedAt": "2026-07-31T13:40:06.144Z",
+      "mtimeMs": 1785711653976.4705,
+      "updatedAt": "2026-08-02T23:43:13.890Z",
+      "source": "scan"
+    },
+    ".cursor/rules/openwolf.mdc": {
+      "description": "",
+      "tokens": 87,
+      "hash": "25a895da2047ef4d",
+      "size": 323,
+      "mtimeMs": 1785711653963.9404,
+      "updatedAt": "2026-08-02T23:43:13.891Z",
       "source": "scan"
     },
     ".gitignore": {
       "description": "Git ignore rules",
-      "tokens": 66,
-      "hash": "a6cd917de2a03767",
-      "size": 244,
-      "mtimeMs": 1785454413066.085,
-      "updatedAt": "2026-07-31T13:40:06.144Z",
+      "tokens": 71,
+      "hash": "802a60d36ecace1d",
+      "size": 264,
+      "mtimeMs": 1785506758093.3572,
+      "updatedAt": "2026-08-02T23:43:13.892Z",
       "source": "scan"
     },
     "agents/developer.toml": {
@@ -140,53 +149,62 @@
       "tokens": 3464,
       "hash": "470070f849dc55f4",
       "size": 12124,
-      "mtimeMs": 1785457497546.429,
-      "updatedAt": "2026-07-31T13:40:06.146Z",
+      "mtimeMs": 1785506758113.1912,
+      "updatedAt": "2026-08-02T23:43:13.892Z",
       "source": "scan"
     },
     "agents/planner.toml": {
       "description": "",
-      "tokens": 1504,
-      "hash": "444a0b78b43a77a5",
-      "size": 5280,
-      "mtimeMs": 1785447367946.1555,
-      "updatedAt": "2026-07-31T13:40:06.148Z",
+      "tokens": 1488,
+      "hash": "11d078bc0ea2ff6d",
+      "size": 5223,
+      "mtimeMs": 1785713796839.2979,
+      "updatedAt": "2026-08-02T23:43:13.893Z",
       "source": "scan"
     },
     "agents/qa.toml": {
       "description": "",
-      "tokens": 1540,
-      "hash": "8a45643685150df0",
-      "size": 5394,
-      "mtimeMs": 1785447511224.4326,
-      "updatedAt": "2026-07-31T13:40:06.149Z",
+      "tokens": 1538,
+      "hash": "cddd6488c7aa26d9",
+      "size": 5385,
+      "mtimeMs": 1785713778075.0454,
+      "updatedAt": "2026-08-02T23:43:13.893Z",
       "source": "scan"
     },
     "agents/reviewer.toml": {
       "description": "",
-      "tokens": 1218,
-      "hash": "90ba4905686df046",
-      "size": 4267,
-      "mtimeMs": 1785447678818.4978,
-      "updatedAt": "2026-07-31T13:40:06.151Z",
+      "tokens": 1228,
+      "hash": "20a3706de3b496b8",
+      "size": 4301,
+      "mtimeMs": 1785713778077.0474,
+      "updatedAt": "2026-08-02T23:43:13.893Z",
       "source": "scan"
     },
     "agents/status.toml": {
       "description": "",
-      "tokens": 1276,
-      "hash": "770093f4f1cf497d",
-      "size": 4472,
-      "mtimeMs": 1785447664571.6074,
-      "updatedAt": "2026-07-31T13:40:06.152Z",
+      "tokens": 1268,
+      "hash": "4159adfab232bfc9",
+      "size": 4441,
+      "mtimeMs": 1785713796840.308,
+      "updatedAt": "2026-08-02T23:43:13.894Z",
       "source": "scan"
     },
     "AGENTS.md": {
       "description": "OpenWolf",
-      "tokens": 3367,
-      "hash": "9c87a51765147f2c",
-      "size": 13626,
-      "mtimeMs": 1785460793315.3884,
-      "updatedAt": "2026-07-31T13:40:06.153Z",
+      "tokens": 3459,
+      "hash": "fe896d08aba4a002",
+      "size": 13994,
+      "mtimeMs": 1785711653958.942,
+      "updatedAt": "2026-08-02T23:43:13.895Z",
+      "source": "scan"
+    },
+    "bash.exe.stackdump": {
+      "description": "",
+      "tokens": 319,
+      "hash": "7037fa5af763bab3",
+      "size": 1196,
+      "mtimeMs": 1785550480484.192,
+      "updatedAt": "2026-08-02T23:43:13.896Z",
       "source": "scan"
     },
     "CLAUDE.md": {
@@ -195,7 +213,7 @@
       "hash": "b1ca356fa9d5f3a6",
       "size": 225,
       "mtimeMs": 1785442384006.965,
-      "updatedAt": "2026-07-31T13:40:06.154Z",
+      "updatedAt": "2026-08-02T23:43:13.896Z",
       "source": "scan"
     },
     "docs/workflow/README.md": {
@@ -204,88 +222,628 @@
       "hash": "ee185e0c997083f8",
       "size": 1145,
       "mtimeMs": 1785448067000,
-      "updatedAt": "2026-07-31T13:40:06.155Z",
+      "updatedAt": "2026-08-02T23:43:13.897Z",
       "source": "scan"
     },
     "docs/workflow/task-registry.md": {
       "description": "Task Registry",
-      "tokens": 130,
-      "hash": "4b660712a184643c",
-      "size": 519,
-      "mtimeMs": 1785461144630.8252,
-      "updatedAt": "2026-07-31T13:40:06.156Z",
+      "tokens": 317,
+      "hash": "fc8e28aa0caa181b",
+      "size": 1268,
+      "mtimeMs": 1785550480486.7146,
+      "updatedAt": "2026-08-02T23:43:13.897Z",
       "source": "scan"
     },
     "docs/workflow/tasks/MINERS-000-nextjs-project-foundation/00-task-brief.md": {
       "description": "MINERS-000 — Next.js Project Foundation",
-      "tokens": 503,
-      "hash": "8ab045840f4269a0",
-      "size": 2019,
-      "mtimeMs": 1785453187592.2314,
-      "updatedAt": "2026-07-31T13:40:06.158Z",
+      "tokens": 514,
+      "hash": "d5c6c3812a5f2c2b",
+      "size": 2064,
+      "mtimeMs": 1785506758116.8728,
+      "updatedAt": "2026-08-02T23:43:13.898Z",
       "source": "scan"
     },
     "docs/workflow/tasks/MINERS-000-nextjs-project-foundation/01-planner-report.md": {
       "description": "MINERS-000 — Next.js Project Foundation",
-      "tokens": 4747,
-      "hash": "376f28554c1f50d4",
-      "size": 19048,
-      "mtimeMs": 1785453947163.961,
-      "updatedAt": "2026-07-31T13:40:06.160Z",
+      "tokens": 4828,
+      "hash": "0d872ff638e44ee9",
+      "size": 19372,
+      "mtimeMs": 1785506758119.3323,
+      "updatedAt": "2026-08-02T23:43:13.898Z",
       "source": "scan"
     },
     "docs/workflow/tasks/MINERS-000-nextjs-project-foundation/02-developer-report.md": {
       "description": "MINERS-000 — Next.js Project Foundation",
-      "tokens": 6683,
-      "hash": "a0e9b3603c638ec8",
-      "size": 26769,
-      "mtimeMs": 1785463854655.9216,
-      "updatedAt": "2026-07-31T13:40:06.162Z",
+      "tokens": 6789,
+      "hash": "18b2b58c74710adc",
+      "size": 27195,
+      "mtimeMs": 1785506758122.822,
+      "updatedAt": "2026-08-02T23:43:13.898Z",
       "source": "scan"
     },
     "docs/workflow/tasks/MINERS-000-nextjs-project-foundation/03-qa-report.md": {
       "description": "MINERS-000 — Next.js Project Foundation",
-      "tokens": 6176,
-      "hash": "22053acac6c8bddb",
-      "size": 24835,
-      "mtimeMs": 1785464018560.691,
-      "updatedAt": "2026-07-31T13:40:06.163Z",
+      "tokens": 1667,
+      "hash": "d98c8643da0e8d02",
+      "size": 6696,
+      "mtimeMs": 1785506758124.8232,
+      "updatedAt": "2026-08-02T23:43:13.899Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-000-nextjs-project-foundation/04-reviewer-report.md": {
+      "description": "MINERS-000 — Next.js Project Foundation",
+      "tokens": 1572,
+      "hash": "dfefe5e5fcdb89d7",
+      "size": 6316,
+      "mtimeMs": 1785506758127.8213,
+      "updatedAt": "2026-08-02T23:43:13.899Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-000-nextjs-project-foundation/05-status-report.md": {
+      "description": "MINERS-000 — Status Report",
+      "tokens": 1427,
+      "hash": "77705c4b9c809f2e",
+      "size": 5727,
+      "mtimeMs": 1785506758129.4673,
+      "updatedAt": "2026-08-02T23:43:13.899Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-000-nextjs-project-foundation/defects/MINERS-000-QA-001.md": {
+      "description": "MINERS-000-QA-001 — Playwright teardown did not terminate",
+      "tokens": 422,
+      "hash": "48b55f742919ef95",
+      "size": 1699,
+      "mtimeMs": 1785506758131.4868,
+      "updatedAt": "2026-08-02T23:43:13.900Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-000-nextjs-project-foundation/defects/MINERS-000-QA-002.md": {
+      "description": "MINERS-000-QA-002 — Worktree baseline provenance mismatch",
+      "tokens": 475,
+      "hash": "afe7cf8c4f649939",
+      "size": 1910,
+      "mtimeMs": 1785506758131.4868,
+      "updatedAt": "2026-08-02T23:43:13.900Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-000-nextjs-project-foundation/prompts/04-reviewer-prompt.md": {
+      "description": "MINERS-000 — Reviewer Handoff",
+      "tokens": 723,
+      "hash": "58ce718333ac0044",
+      "size": 2898,
+      "mtimeMs": 1785506758134.7627,
+      "updatedAt": "2026-08-02T23:43:13.901Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-000-nextjs-project-foundation/prompts/05-status-prompt.md": {
+      "description": "MINERS-000 — Status Handoff",
+      "tokens": 1073,
+      "hash": "68fc18503f0383a1",
+      "size": 4299,
+      "mtimeMs": 1785506758136.2192,
+      "updatedAt": "2026-08-02T23:43:13.901Z",
       "source": "scan"
     },
     "docs/workflow/tasks/MINERS-000-nextjs-project-foundation/prompts/corrections/round-01-developer-prompt.md": {
       "description": "MINERS-000 — Developer Correction Round 01",
-      "tokens": 680,
-      "hash": "d4f5a3ef00be87db",
-      "size": 2729,
-      "mtimeMs": 1785461147102.9878,
-      "updatedAt": "2026-07-31T13:40:06.165Z",
+      "tokens": 687,
+      "hash": "35ae634b0a6ba58e",
+      "size": 2757,
+      "mtimeMs": 1785506758139.054,
+      "updatedAt": "2026-08-02T23:43:13.902Z",
       "source": "scan"
     },
     "docs/workflow/tasks/MINERS-000-nextjs-project-foundation/prompts/corrections/round-01-qa-prompt.md": {
       "description": "MINERS-000 — QA Revalidation Round 01",
-      "tokens": 693,
-      "hash": "a848e6f1a8de4235",
-      "size": 2780,
-      "mtimeMs": 1785461990861.4358,
-      "updatedAt": "2026-07-31T13:40:06.166Z",
+      "tokens": 701,
+      "hash": "1e875bb1c70c1155",
+      "size": 2812,
+      "mtimeMs": 1785506758140.078,
+      "updatedAt": "2026-08-02T23:43:13.903Z",
       "source": "scan"
     },
     "docs/workflow/tasks/MINERS-000-nextjs-project-foundation/prompts/corrections/round-02-developer-prompt.md": {
       "description": "MINERS-000 — Developer Correction Round 02",
-      "tokens": 567,
-      "hash": "e3d5ed465e6bced8",
-      "size": 2279,
-      "mtimeMs": 1785462443543.173,
-      "updatedAt": "2026-07-31T13:40:06.167Z",
+      "tokens": 574,
+      "hash": "13b3d1c33de80641",
+      "size": 2308,
+      "mtimeMs": 1785506758143.087,
+      "updatedAt": "2026-08-02T23:43:13.903Z",
       "source": "scan"
     },
     "docs/workflow/tasks/MINERS-000-nextjs-project-foundation/prompts/corrections/round-02-qa-prompt.md": {
       "description": "MINERS-000 — QA Revalidation Round 02",
-      "tokens": 541,
-      "hash": "fbd590a4f7818120",
-      "size": 2175,
-      "mtimeMs": 1785462874776.2073,
-      "updatedAt": "2026-07-31T13:40:06.168Z",
+      "tokens": 550,
+      "hash": "cd794288c39112e4",
+      "size": 2209,
+      "mtimeMs": 1785506758144.4905,
+      "updatedAt": "2026-08-02T23:43:13.904Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-000-nextjs-project-foundation/prompts/corrections/round-03-qa-prompt.md": {
+      "description": "MINERS-000 — QA Report Reconciliation Round 03",
+      "tokens": 575,
+      "hash": "6e0bca21b7eb6e19",
+      "size": 2313,
+      "mtimeMs": 1785506758145.8716,
+      "updatedAt": "2026-08-02T23:43:13.904Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-000-nextjs-project-foundation/prompts/corrections/round-04-qa-defect-records-prompt.md": {
+      "description": "MINERS-000 — QA Defect-Record Correction",
+      "tokens": 557,
+      "hash": "6d6e113d7b03a5e2",
+      "size": 2232,
+      "mtimeMs": 1785506758147.3762,
+      "updatedAt": "2026-08-02T23:43:13.904Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-001-brand-foundations/00-task-brief.md": {
+      "description": "MINERS-001 — Brand Foundations from Figma",
+      "tokens": 753,
+      "hash": "74e6e81657b6d471",
+      "size": 3024,
+      "mtimeMs": 1785550480488.7183,
+      "updatedAt": "2026-08-02T23:43:13.905Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-001-brand-foundations/01-planner-report.md": {
+      "description": "MINERS-001 — Brand Foundations from Figma",
+      "tokens": 3612,
+      "hash": "4d9c715084e5c6e1",
+      "size": 14495,
+      "mtimeMs": 1785507811799.474,
+      "updatedAt": "2026-08-02T23:43:13.905Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-001-brand-foundations/02-developer-report.md": {
+      "description": "MINERS-001 — Brand Foundations from Figma",
+      "tokens": 3007,
+      "hash": "a17b4d6465a5171e",
+      "size": 12055,
+      "mtimeMs": 1785508815803.1975,
+      "updatedAt": "2026-08-02T23:43:13.906Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-001-brand-foundations/03-qa-report.md": {
+      "description": "MINERS-001 — Brand Foundations from Figma",
+      "tokens": 1535,
+      "hash": "c5baab910145526d",
+      "size": 6161,
+      "mtimeMs": 1785509460031.6528,
+      "updatedAt": "2026-08-02T23:43:13.906Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-001-brand-foundations/04-reviewer-report.md": {
+      "description": "MINERS-001 — Brand Foundations from Figma",
+      "tokens": 1418,
+      "hash": "d2b98611da0fbfa1",
+      "size": 5695,
+      "mtimeMs": 1785509696045.336,
+      "updatedAt": "2026-08-02T23:43:13.907Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-001-brand-foundations/05-status-report.md": {
+      "description": "MINERS-001 — Status Report",
+      "tokens": 1419,
+      "hash": "815085361c0577f4",
+      "size": 5692,
+      "mtimeMs": 1785550480490.7344,
+      "updatedAt": "2026-08-02T23:43:13.908Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-001-brand-foundations/prompts/01-planner-prompt.md": {
+      "description": "MINERS-001 — Planner Prompt",
+      "tokens": 766,
+      "hash": "fb769d9c953991b8",
+      "size": 3070,
+      "mtimeMs": 1785507402016.7878,
+      "updatedAt": "2026-08-02T23:43:13.908Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-001-brand-foundations/prompts/02-developer-prompt.md": {
+      "description": "MINERS-001 — Developer Prompt",
+      "tokens": 876,
+      "hash": "0d9454cd5bd9b2f8",
+      "size": 3513,
+      "mtimeMs": 1785507894939.6165,
+      "updatedAt": "2026-08-02T23:43:13.909Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-001-brand-foundations/prompts/03-qa-prompt.md": {
+      "description": "MINERS-001 — QA Prompt",
+      "tokens": 785,
+      "hash": "8b5649fa8a5630f4",
+      "size": 3151,
+      "mtimeMs": 1785508921795.5217,
+      "updatedAt": "2026-08-02T23:43:13.909Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-001-brand-foundations/prompts/04-reviewer-prompt.md": {
+      "description": "MINERS-001 — Reviewer Prompt",
+      "tokens": 661,
+      "hash": "8aa5bf8349d08b62",
+      "size": 2653,
+      "mtimeMs": 1785509544876.0164,
+      "updatedAt": "2026-08-02T23:43:13.909Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-001-brand-foundations/prompts/05-status-prompt.md": {
+      "description": "MINERS-001 — Status Prompt",
+      "tokens": 1016,
+      "hash": "c432586b47102307",
+      "size": 4076,
+      "mtimeMs": 1785509869970.175,
+      "updatedAt": "2026-08-02T23:43:13.910Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-001-brand-foundations/prompts/corrections/round-01-developer-prompt.md": {
+      "description": "MINERS-001 — Developer Report Correction Round 01",
+      "tokens": 430,
+      "hash": "dace3f3ab718cefe",
+      "size": 1728,
+      "mtimeMs": 1785508656666.5132,
+      "updatedAt": "2026-08-02T23:43:13.910Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-001-brand-foundations/prompts/corrections/round-01-status-prompt.md": {
+      "description": "MINERS-001 — Status Correction Round 01",
+      "tokens": 520,
+      "hash": "f28ecf9f805437ad",
+      "size": 2087,
+      "mtimeMs": 1785550480491.7126,
+      "updatedAt": "2026-08-02T23:43:13.910Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-002-home-page/00-task-brief.md": {
+      "description": "MINERS-002 — Home Page from Figma",
+      "tokens": 738,
+      "hash": "40ddc4f7b9e76ffb",
+      "size": 2966,
+      "mtimeMs": 1785550480492.7146,
+      "updatedAt": "2026-08-02T23:43:13.911Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-002-home-page/01-planner-report.md": {
+      "description": "MINERS-002 — Home Page from Figma",
+      "tokens": 3637,
+      "hash": "d060ec0fbef9d301",
+      "size": 14612,
+      "mtimeMs": 1785550480493.7175,
+      "updatedAt": "2026-08-02T23:43:13.911Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-002-home-page/02-developer-report.md": {
+      "description": "MINERS-002 — Home Page from Figma",
+      "tokens": 3064,
+      "hash": "ea5040b36ff10934",
+      "size": 12290,
+      "mtimeMs": 1785550480495.718,
+      "updatedAt": "2026-08-02T23:43:13.911Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-002-home-page/03-qa-report.md": {
+      "description": "MINERS-002 — Home Page from Figma",
+      "tokens": 1989,
+      "hash": "1ea32b0d8fd8c876",
+      "size": 7975,
+      "mtimeMs": 1785550480496.712,
+      "updatedAt": "2026-08-02T23:43:13.912Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-002-home-page/04-reviewer-report.md": {
+      "description": "MINERS-002 — Home Page from Figma",
+      "tokens": 1561,
+      "hash": "f6d65ffc752684d2",
+      "size": 6269,
+      "mtimeMs": 1785550480497.7139,
+      "updatedAt": "2026-08-02T23:43:13.912Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-002-home-page/05-status-report.md": {
+      "description": "MINERS-002 — Status Report",
+      "tokens": 1339,
+      "hash": "5e9f0ae8d1e19b07",
+      "size": 5379,
+      "mtimeMs": 1785550480498.713,
+      "updatedAt": "2026-08-02T23:43:13.912Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-002-home-page/defects/MINERS-002-QA-001.md": {
+      "description": "MINERS-002-QA-001 — Display typography does not match Figma",
+      "tokens": 356,
+      "hash": "8db1aaad42c19266",
+      "size": 1427,
+      "mtimeMs": 1785550480500.723,
+      "updatedAt": "2026-08-02T23:43:13.913Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-002-home-page/defects/MINERS-002-QA-002.md": {
+      "description": "MINERS-002-QA-002 — Improvised iconography diverges from Figma",
+      "tokens": 316,
+      "hash": "b052a03fa96db2e7",
+      "size": 1277,
+      "mtimeMs": 1785550480501.7192,
+      "updatedAt": "2026-08-02T23:43:13.913Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-002-home-page/defects/MINERS-002-QA-003.md": {
+      "description": "MINERS-002-QA-003 — Card and product visual treatment materially diverges",
+      "tokens": 380,
+      "hash": "0dac51b3d33ac5c3",
+      "size": 1521,
+      "mtimeMs": 1785550480502.725,
+      "updatedAt": "2026-08-02T23:43:13.913Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-002-home-page/defects/MINERS-002-QA-004.md": {
+      "description": "MINERS-002-QA-004 — Navbar composition and hierarchy diverge",
+      "tokens": 321,
+      "hash": "b8f3be4be908f07f",
+      "size": 1284,
+      "mtimeMs": 1785550480503.7234,
+      "updatedAt": "2026-08-02T23:43:13.913Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-002-home-page/defects/MINERS-002-QA-005.md": {
+      "description": "MINERS-002-QA-005 — Navbar is not sticky during scroll",
+      "tokens": 289,
+      "hash": "e4ae1baaa9e31102",
+      "size": 1158,
+      "mtimeMs": 1785550480504.725,
+      "updatedAt": "2026-08-02T23:43:13.914Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-002-home-page/defects/MINERS-002-QA-006.md": {
+      "description": "MINERS-002-QA-006 — Desktop navbar width is not reduced to the Figma composition",
+      "tokens": 289,
+      "hash": "7b09affe80bd0f33",
+      "size": 1156,
+      "mtimeMs": 1785550480505.723,
+      "updatedAt": "2026-08-02T23:43:13.914Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-002-home-page/prompts/01-planner-prompt.md": {
+      "description": "MINERS-002 — Planner Prompt",
+      "tokens": 699,
+      "hash": "3c2e0733770fa15d",
+      "size": 2804,
+      "mtimeMs": 1785550480507.7266,
+      "updatedAt": "2026-08-02T23:43:13.914Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-002-home-page/prompts/02-developer-prompt.md": {
+      "description": "MINERS-002 — Developer Prompt",
+      "tokens": 960,
+      "hash": "c2dfe86c9bb8395a",
+      "size": 3849,
+      "mtimeMs": 1785550480508.7246,
+      "updatedAt": "2026-08-02T23:43:13.915Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-002-home-page/prompts/03-qa-prompt.md": {
+      "description": "MINERS-002 — QA Prompt",
+      "tokens": 1289,
+      "hash": "48f02cc2a9a06780",
+      "size": 5164,
+      "mtimeMs": 1785550480509.722,
+      "updatedAt": "2026-08-02T23:43:13.915Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-002-home-page/prompts/04-reviewer-prompt.md": {
+      "description": "MINERS-002 — Reviewer Prompt",
+      "tokens": 761,
+      "hash": "f727f7cff37fd972",
+      "size": 3052,
+      "mtimeMs": 1785550480511.72,
+      "updatedAt": "2026-08-02T23:43:13.915Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-002-home-page/prompts/05-status-prompt.md": {
+      "description": "MINERS-002 — Status Prompt",
+      "tokens": 1128,
+      "hash": "aa9b9372b06d9953",
+      "size": 4520,
+      "mtimeMs": 1785550480512.721,
+      "updatedAt": "2026-08-02T23:43:13.915Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-002-home-page/prompts/corrections/round-01-developer-prompt.md": {
+      "description": "MINERS-002 — Developer Correction Round 01",
+      "tokens": 866,
+      "hash": "af2a68c6e4559d54",
+      "size": 3483,
+      "mtimeMs": 1785550480514.2288,
+      "updatedAt": "2026-08-02T23:43:13.916Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-002-home-page/prompts/corrections/round-01-planner-prompt.md": {
+      "description": "MINERS-002 — Planner Correction Round 01",
+      "tokens": 372,
+      "hash": "c57a742d27f26e89",
+      "size": 1492,
+      "mtimeMs": 1785550480515.24,
+      "updatedAt": "2026-08-02T23:43:13.917Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-002-home-page/prompts/corrections/round-01-qa-prompt.md": {
+      "description": "MINERS-002 — QA Revalidation Round 01",
+      "tokens": 917,
+      "hash": "b72fc1b6fcaf118d",
+      "size": 3676,
+      "mtimeMs": 1785550480517.2437,
+      "updatedAt": "2026-08-02T23:43:13.917Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-002-home-page/prompts/corrections/round-02-developer-prompt.md": {
+      "description": "MINERS-002 — Developer Correction Round 02",
+      "tokens": 673,
+      "hash": "b202adf302b5f4a3",
+      "size": 2707,
+      "mtimeMs": 1785550480518.9248,
+      "updatedAt": "2026-08-02T23:43:13.917Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-002-home-page/prompts/corrections/round-02-qa-prompt.md": {
+      "description": "MINERS-002 — QA Evidence Correction Round 02",
+      "tokens": 645,
+      "hash": "ff07d9ce85e339b6",
+      "size": 2584,
+      "mtimeMs": 1785550480519.9368,
+      "updatedAt": "2026-08-02T23:43:13.917Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-002-home-page/prompts/corrections/round-03-developer-prompt.md": {
+      "description": "MINERS-002 — Developer Report Correction Round 03",
+      "tokens": 473,
+      "hash": "89a0f06bb6e2b0d1",
+      "size": 1899,
+      "mtimeMs": 1785550480520.9346,
+      "updatedAt": "2026-08-02T23:43:13.918Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-002-home-page/prompts/corrections/round-03-qa-prompt.md": {
+      "description": "MINERS-002 — QA Revalidation Round 03",
+      "tokens": 715,
+      "hash": "c5d7725169578a0f",
+      "size": 2869,
+      "mtimeMs": 1785550480521.9338,
+      "updatedAt": "2026-08-02T23:43:13.918Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-003-services-page/00-task-brief.md": {
+      "description": "MINERS-003 — Services Page from Figma",
+      "tokens": 624,
+      "hash": "7b26d7a7202fa81c",
+      "size": 2506,
+      "mtimeMs": 1785550480523.9402,
+      "updatedAt": "2026-08-02T23:43:13.918Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-003-services-page/01-planner-report.md": {
+      "description": "MINERS-003 — Services Page from Figma",
+      "tokens": 3548,
+      "hash": "7735b893c5d6fa7d",
+      "size": 14278,
+      "mtimeMs": 1785550480524.9336,
+      "updatedAt": "2026-08-02T23:43:13.919Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-003-services-page/02-developer-report.md": {
+      "description": "MINERS-003 — Services Page from Figma",
+      "tokens": 1955,
+      "hash": "bec98361f6a07fb5",
+      "size": 7832,
+      "mtimeMs": 1785550480526.9333,
+      "updatedAt": "2026-08-02T23:43:13.919Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-003-services-page/03-qa-report.md": {
+      "description": "MINERS-003 — Services Page from Figma",
+      "tokens": 1463,
+      "hash": "9b684e139b05315a",
+      "size": 5858,
+      "mtimeMs": 1785550480527.9336,
+      "updatedAt": "2026-08-02T23:43:13.919Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-003-services-page/04-reviewer-report.md": {
+      "description": "MINERS-003 — Services Page from Figma",
+      "tokens": 1355,
+      "hash": "6336e9b6f4ae1d6a",
+      "size": 5443,
+      "mtimeMs": 1785550480528.9321,
+      "updatedAt": "2026-08-02T23:43:13.919Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-003-services-page/05-status-report.md": {
+      "description": "MINERS-003 — Status Report",
+      "tokens": 1289,
+      "hash": "f8e9e6b0b1bc850d",
+      "size": 5175,
+      "mtimeMs": 1785550480529.9336,
+      "updatedAt": "2026-08-02T23:43:13.919Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-003-services-page/defects/MINERS-003-REV-001.md": {
+      "description": "MINERS-003-REV-001 — Duplicate page footers",
+      "tokens": 418,
+      "hash": "30c4bd5038786f98",
+      "size": 1673,
+      "mtimeMs": 1785550480530.9326,
+      "updatedAt": "2026-08-02T23:43:13.920Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-003-services-page/prompts/01-planner-prompt.md": {
+      "description": "MINERS-003 — Planner Prompt",
+      "tokens": 681,
+      "hash": "efe0d4fecfb1515c",
+      "size": 2731,
+      "mtimeMs": 1785550480532.9314,
+      "updatedAt": "2026-08-02T23:43:13.920Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-003-services-page/prompts/02-developer-prompt.md": {
+      "description": "MINERS-003 — Developer Prompt",
+      "tokens": 983,
+      "hash": "289414e8003c7db8",
+      "size": 3942,
+      "mtimeMs": 1785550480534.9346,
+      "updatedAt": "2026-08-02T23:43:13.920Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-003-services-page/prompts/03-qa-prompt.md": {
+      "description": "MINERS-003 — QA Prompt",
+      "tokens": 775,
+      "hash": "0261120105129741",
+      "size": 3111,
+      "mtimeMs": 1785550480535.9397,
+      "updatedAt": "2026-08-02T23:43:13.921Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-003-services-page/prompts/04-reviewer-prompt.md": {
+      "description": "Reviewer Prompt — MINERS-003 Services Page from Figma",
+      "tokens": 1186,
+      "hash": "3b474976f1264ca5",
+      "size": 4752,
+      "mtimeMs": 1785550480537.932,
+      "updatedAt": "2026-08-02T23:43:13.921Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-003-services-page/prompts/05-status-prompt.md": {
+      "description": "Status Prompt — MINERS-003 Services Page from Figma",
+      "tokens": 1279,
+      "hash": "9bbc8b774e6733cf",
+      "size": 5127,
+      "mtimeMs": 1785550480538.9321,
+      "updatedAt": "2026-08-02T23:43:13.921Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-003-services-page/prompts/corrections/round-01-developer-prompt.md": {
+      "description": "Developer Correction Prompt — MINERS-003 Round 01",
+      "tokens": 1005,
+      "hash": "03028e574a7bf5d1",
+      "size": 4026,
+      "mtimeMs": 1785550480540.9397,
+      "updatedAt": "2026-08-02T23:43:13.922Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-003-services-page/prompts/corrections/round-01-qa-prompt.md": {
+      "description": "QA Revalidation Prompt — MINERS-003 Round 01",
+      "tokens": 1066,
+      "hash": "80c739f7cb117e4a",
+      "size": 4275,
+      "mtimeMs": 1785550480541.933,
+      "updatedAt": "2026-08-02T23:43:13.922Z",
+      "source": "scan"
+    },
+    "docs/workflow/tasks/MINERS-003-services-page/prompts/corrections/round-01-reviewer-prompt.md": {
+      "description": "Reviewer Re-review Prompt — MINERS-003 Round 01",
+      "tokens": 1039,
+      "hash": "292c114bae3ddf45",
+      "size": 4167,
+      "mtimeMs": 1785550480542.9385,
+      "updatedAt": "2026-08-02T23:43:13.922Z",
       "source": "scan"
     },
     "docs/workflow/templates/correction-round.md": {
@@ -294,7 +852,7 @@
       "hash": "79cbfc7d1ee7785e",
       "size": 650,
       "mtimeMs": 1785448072000,
-      "updatedAt": "2026-07-31T13:40:06.170Z",
+      "updatedAt": "2026-08-02T23:43:13.923Z",
       "source": "scan"
     },
     "docs/workflow/templates/defect-report.md": {
@@ -303,7 +861,7 @@
       "hash": "53c5fbe865aa06a6",
       "size": 470,
       "mtimeMs": 1785448071000,
-      "updatedAt": "2026-07-31T13:40:06.172Z",
+      "updatedAt": "2026-08-02T23:43:13.923Z",
       "source": "scan"
     },
     "docs/workflow/templates/developer-report.md": {
@@ -312,7 +870,7 @@
       "hash": "ad27ef6d1d53ab35",
       "size": 718,
       "mtimeMs": 1785448069000,
-      "updatedAt": "2026-07-31T13:40:06.174Z",
+      "updatedAt": "2026-08-02T23:43:13.923Z",
       "source": "scan"
     },
     "docs/workflow/templates/planner-report.md": {
@@ -321,7 +879,7 @@
       "hash": "d9380adf250ea92f",
       "size": 497,
       "mtimeMs": 1785448069000,
-      "updatedAt": "2026-07-31T13:40:06.175Z",
+      "updatedAt": "2026-08-02T23:43:13.923Z",
       "source": "scan"
     },
     "docs/workflow/templates/qa-report.md": {
@@ -330,7 +888,7 @@
       "hash": "f4d2e07617d58421",
       "size": 563,
       "mtimeMs": 1785448070000,
-      "updatedAt": "2026-07-31T13:40:06.175Z",
+      "updatedAt": "2026-08-02T23:43:13.924Z",
       "source": "scan"
     },
     "docs/workflow/templates/reviewer-report.md": {
@@ -339,7 +897,7 @@
       "hash": "aa7e23e56a6ecbdb",
       "size": 540,
       "mtimeMs": 1785448070000,
-      "updatedAt": "2026-07-31T13:40:06.176Z",
+      "updatedAt": "2026-08-02T23:43:13.924Z",
       "source": "scan"
     },
     "docs/workflow/templates/status-report.md": {
@@ -348,7 +906,7 @@
       "hash": "e6a5e6823c849305",
       "size": 521,
       "mtimeMs": 1785448071000,
-      "updatedAt": "2026-07-31T13:40:06.177Z",
+      "updatedAt": "2026-08-02T23:43:13.924Z",
       "source": "scan"
     },
     "docs/workflow/templates/task-brief.md": {
@@ -357,79 +915,88 @@
       "hash": "de846d5c66d306be",
       "size": 517,
       "mtimeMs": 1785448068000,
-      "updatedAt": "2026-07-31T13:40:06.178Z",
+      "updatedAt": "2026-08-02T23:43:13.924Z",
       "source": "scan"
     },
     "eslint.config.mjs": {
       "description": "ESLint flat configuration",
-      "tokens": 103,
-      "hash": "d1752edb02593fa2",
-      "size": 386,
-      "mtimeMs": 1785454420616.7048,
-      "updatedAt": "2026-07-31T13:40:06.179Z",
+      "tokens": 107,
+      "hash": "0151233423d64f67",
+      "size": 401,
+      "mtimeMs": 1785506758149.2378,
+      "updatedAt": "2026-08-02T23:43:13.925Z",
+      "source": "scan"
+    },
+    "GEMINI.md": {
+      "description": "OpenWolf",
+      "tokens": 68,
+      "hash": "8c90778623bf50ac",
+      "size": 271,
+      "mtimeMs": 1785711653960.9421,
+      "updatedAt": "2026-08-02T23:43:13.925Z",
       "source": "scan"
     },
     "next-env.d.ts": {
       "description": "/ <reference types=\"next\" />",
-      "tokens": 72,
-      "hash": "7ad303e40d4fddf4",
-      "size": 251,
-      "mtimeMs": 1785464060289.4087,
-      "updatedAt": "2026-07-31T13:40:06.179Z",
+      "tokens": 73,
+      "hash": "4e4da12aa061aac1",
+      "size": 253,
+      "mtimeMs": 1785712624664.1345,
+      "updatedAt": "2026-08-02T23:43:13.925Z",
       "source": "scan"
     },
     "next.config.ts": {
       "description": "Next.js configuration",
-      "tokens": 38,
-      "hash": "c5efcdb15ee66db5",
-      "size": 130,
-      "mtimeMs": 1785454414616.0015,
-      "updatedAt": "2026-07-31T13:40:06.179Z",
+      "tokens": 40,
+      "hash": "1ad12e077c569971",
+      "size": 137,
+      "mtimeMs": 1785506758155.3337,
+      "updatedAt": "2026-08-02T23:43:13.926Z",
       "source": "scan"
     },
     "package-lock.json": {
       "description": "npm lock file",
-      "tokens": 78798,
-      "hash": "a5abf4fc580238ad",
-      "size": 275792,
-      "mtimeMs": 1785463180741.3723,
-      "updatedAt": "2026-07-31T13:40:06.181Z",
+      "tokens": 81080,
+      "hash": "ecc1919a1313bfcf",
+      "size": 283779,
+      "mtimeMs": 1785540593448.3403,
+      "updatedAt": "2026-08-02T23:43:13.927Z",
       "source": "scan"
     },
     "package.json": {
       "description": "Node.js package manifest",
-      "tokens": 255,
-      "hash": "91806dae2999fa52",
-      "size": 891,
-      "mtimeMs": 1785463078145.782,
-      "updatedAt": "2026-07-31T13:40:06.181Z",
+      "tokens": 266,
+      "hash": "5f8774bd0d24b5f2",
+      "size": 931,
+      "mtimeMs": 1785506758160.8635,
+      "updatedAt": "2026-08-02T23:43:13.927Z",
       "source": "scan"
     },
     "playwright.config.ts": {
       "description": "Playwright test configuration",
-      "tokens": 117,
-      "hash": "c39433ab9fbb637b",
-      "size": 408,
-      "mtimeMs": 1785463079726.6858,
-      "updatedAt": "2026-07-31T13:40:06.181Z",
+      "tokens": 122,
+      "hash": "ef935b88c87a0426",
+      "size": 425,
+      "mtimeMs": 1785550480544.9336,
+      "updatedAt": "2026-08-02T23:43:13.927Z",
       "source": "scan"
     },
     "postcss.config.mjs": {
       "description": "Declares config",
-      "tokens": 26,
-      "hash": "dfac7ac2d86d326a",
-      "size": 94,
-      "mtimeMs": 1785454419111.5752,
-      "updatedAt": "2026-07-31T13:40:06.182Z",
+      "tokens": 27,
+      "hash": "7b299d3d3b16699d",
+      "size": 101,
+      "mtimeMs": 1785506758163.2886,
+      "updatedAt": "2026-08-02T23:43:13.928Z",
       "source": "scan"
     },
     "README-APP.md": {
       "description": "Miners application",
-      "tokens": 124,
-      "hash": "3680107f9b1c7fc8",
-      "size": 495,
-      "mtimeMs": 1785454425232.159,
-      "updatedAt": "2026-07-31T13:40:06.182Z",
+      "tokens": 129,
+      "hash": "19712de9034c9781",
+      "size": 515,
+      "mtimeMs": 1785506758110.9834,
+      "updatedAt": "2026-08-02T23:43:13.928Z",
       "source": "scan"
     },
     "README.md": {
@@ -438,97 +1005,195 @@
       "hash": "12b4d0328f18056e",
       "size": 1100,
       "mtimeMs": 1785450480437.3694,
-      "updatedAt": "2026-07-31T13:40:06.182Z",
+      "updatedAt": "2026-08-02T23:43:13.928Z",
       "source": "scan"
     },
     "src/app/globals.css": {
-      "description": "Styles: 4 rules, 2 vars",
-      "tokens": 248,
-      "hash": "55cd7efc47195885",
-      "size": 866,
-      "mtimeMs": 1785454683731.8574,
-      "updatedAt": "2026-07-31T13:40:06.185Z",
+      "description": "Styles: 96 rules, 29 vars",
+      "tokens": 16476,
+      "hash": "813be2c428e216b0",
+      "size": 57664,
+      "mtimeMs": 1785713218894.048,
+      "updatedAt": "2026-08-02T23:43:13.929Z",
       "source": "scan"
     },
     "src/app/layout.tsx": {
       "description": "metadata",
-      "tokens": 120,
-      "hash": "b408f19de9f69aa2",
-      "size": 419,
-      "mtimeMs": 1785454682202.728,
-      "updatedAt": "2026-07-31T13:40:06.186Z",
+      "tokens": 192,
+      "hash": "7b758d22705c7184",
+      "size": 672,
+      "mtimeMs": 1785550480554.9448,
+      "updatedAt": "2026-08-02T23:43:13.930Z",
       "source": "scan"
     },
     "src/app/page.test.tsx": {
       "description": "html",
-      "tokens": 165,
-      "hash": "85011e30e7ddf81b",
-      "size": 575,
-      "mtimeMs": 1785454444080.896,
-      "updatedAt": "2026-07-31T13:40:06.187Z",
+      "tokens": 171,
+      "hash": "15f777b690929216",
+      "size": 598,
+      "mtimeMs": 1785550480556.9468,
+      "updatedAt": "2026-08-02T23:43:13.930Z",
       "source": "scan"
     },
     "src/app/page.tsx": {
-      "description": "features",
-      "tokens": 868,
-      "hash": "52cd1c30677c117e",
-      "size": 3040,
-      "mtimeMs": 1785454817654.358,
-      "updatedAt": "2026-07-31T13:40:06.190Z",
+      "description": "services — uses useState, useEffect",
+      "tokens": 6707,
+      "hash": "ce63c236c52a5e40",
+      "size": 23507,
+      "mtimeMs": 1785550480557.9526,
+      "updatedAt": "2026-08-02T23:43:13.932Z",
       "source": "scan",
       "symbols": [
         {
+          "name": "Icon",
+          "kind": "fn",
+          "startLine": 83,
+          "endLine": 164,
+          "tokens": 478
+        },
+        {
+          "name": "ArrowButton",
+          "kind": "fn",
+          "startLine": 165,
+          "endLine": 185,
+          "tokens": 100
+        },
+        {
           "name": "Home",
           "kind": "fn",
-          "startLine": 26,
-          "endLine": 81,
-          "tokens": 655
+          "startLine": 186,
+          "endLine": 734,
+          "tokens": 5282
+        }
+      ]
+    },
+    "src/app/services/page.test.tsx": {
+      "description": "html",
+      "tokens": 190,
+      "hash": "63947c1893e6fa38",
+      "size": 665,
+      "mtimeMs": 1785550480560.9465,
+      "updatedAt": "2026-08-02T23:43:13.933Z",
+      "source": "scan"
+    },
+    "src/app/services/page.tsx": {
+      "description": "capabilities — uses useState, useEffect",
+      "tokens": 4084,
+      "hash": "ca45c491988944ce",
+      "size": 14293,
+      "mtimeMs": 1785713004106.2964,
+      "updatedAt": "2026-08-02T23:43:13.934Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "Icon",
+          "kind": "fn",
+          "startLine": 146,
+          "endLine": 170,
+          "tokens": 179
+        },
+        {
+          "name": "Arrow",
+          "kind": "fn",
+          "startLine": 171,
+          "endLine": 174,
+          "tokens": 16
+        },
+        {
+          "name": "ServicesPage",
+          "kind": "fn",
+          "startLine": 175,
+          "endLine": 444,
+          "tokens": 2774
         }
       ]
     },
     "src/components/feature-card.tsx": {
-      "description": "FeatureCard",
-      "tokens": 218,
-      "hash": "048806d029163f8e",
-      "size": 761,
-      "mtimeMs": 1785454816041.0825,
-      "updatedAt": "2026-07-31T13:40:06.191Z",
+      "description": "accentClasses",
+      "tokens": 382,
+      "hash": "703ad5905d15393e",
+      "size": 1337,
+      "mtimeMs": 1785508403394.2954,
+      "updatedAt": "2026-08-02T23:43:13.935Z",
       "source": "scan"
     },
     "src/components/foundation-status.tsx": {
       "description": "FoundationStatus",
-      "tokens": 177,
-      "hash": "8fe7b955c53ecbdc",
-      "size": 617,
-      "mtimeMs": 1785454435277.9763,
-      "updatedAt": "2026-07-31T13:40:06.193Z",
+      "tokens": 142,
+      "hash": "e7112ff60f184a88",
+      "size": 497,
+      "mtimeMs": 1785508039550.4343,
+      "updatedAt": "2026-08-02T23:43:13.935Z",
+      "source": "scan"
+    },
+    "src/components/site-footer.tsx": {
+      "description": "SiteFooter",
+      "tokens": 199,
+      "hash": "e7bd6f53777b47f6",
+      "size": 697,
+      "mtimeMs": 1785550480563.4248,
+      "updatedAt": "2026-08-02T23:43:13.935Z",
+      "source": "scan"
+    },
+    "src/components/site-header.tsx": {
+      "description": "Icon — uses useState, useEffect",
+      "tokens": 793,
+      "hash": "0787d1b85367d612",
+      "size": 2774,
+      "mtimeMs": 1785550480564.9224,
+      "updatedAt": "2026-08-02T23:43:13.936Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "Icon",
+          "kind": "fn",
+          "startLine": 7,
+          "endLine": 11,
+          "tokens": 122
+        },
+        {
+          "name": "SiteHeader",
+          "kind": "fn",
+          "startLine": 12,
+          "endLine": 18,
+          "tokens": 620
+        }
+      ]
+    },
+    "src/components/theme-context.tsx": {
+      "description": "ThemeContext — uses useState, useContext",
+      "tokens": 152,
+      "hash": "883b4e4c98179e85",
+      "size": 531,
+      "mtimeMs": 1785550480565.934,
+      "updatedAt": "2026-08-02T23:43:13.936Z",
       "source": "scan"
     },
     "src/hooks/use-media-query.ts": {
       "description": "Exports useMediaQuery",
-      "tokens": 138,
-      "hash": "64306af6f3b1b8e9",
-      "size": 482,
-      "mtimeMs": 1785454432768.05,
-      "updatedAt": "2026-07-31T13:40:06.194Z",
+      "tokens": 143,
+      "hash": "ded31b92e33b13d4",
+      "size": 500,
+      "mtimeMs": 1785506758177.0005,
+      "updatedAt": "2026-08-02T23:43:13.937Z",
       "source": "scan"
     },
     "src/lib/class-names.ts": {
       "description": "Exports classNames",
-      "tokens": 40,
-      "hash": "1ace811987495757",
-      "size": 139,
-      "mtimeMs": 1785454430195.1907,
-      "updatedAt": "2026-07-31T13:40:06.195Z",
+      "tokens": 42,
+      "hash": "aa6cbe1c69085f62",
+      "size": 144,
+      "mtimeMs": 1785506758178.5205,
+      "updatedAt": "2026-08-02T23:43:13.937Z",
       "source": "scan"
     },
     "src/types/foundation.ts": {
       "description": "Exports FoundationFeature",
-      "tokens": 28,
-      "hash": "ff5b5b05ced1ca1e",
-      "size": 95,
-      "mtimeMs": 1785454427705.7534,
-      "updatedAt": "2026-07-31T13:40:06.197Z",
+      "tokens": 29,
+      "hash": "aad576e7dabe1d55",
+      "size": 100,
+      "mtimeMs": 1785506758180.5234,
+      "updatedAt": "2026-08-02T23:43:13.937Z",
       "source": "scan"
     },
     "START-CODEX-PROMPT.md": {
@@ -537,7 +1202,7 @@
       "hash": "e75725c41f4bb5b1",
       "size": 1295,
       "mtimeMs": 1785448061000,
-      "updatedAt": "2026-07-31T13:40:06.197Z",
+      "updatedAt": "2026-08-02T23:43:13.938Z",
       "source": "scan"
     },
     "test-results/MINERS-000/playwright/.last-run.json": {
@@ -545,44 +1210,62 @@
       "tokens": 13,
       "hash": "91d1c43004802cd4",
       "size": 45,
-      "mtimeMs": 1785463904378.782,
-      "updatedAt": "2026-07-31T13:40:06.199Z",
+      "mtimeMs": 1785509660686.438,
+      "updatedAt": "2026-08-02T23:43:13.940Z",
+      "source": "scan"
+    },
+    "test-results/MINERS-002/playwright/.last-run.json": {
+      "description": "",
+      "tokens": 13,
+      "hash": "91d1c43004802cd4",
+      "size": 45,
+      "mtimeMs": 1785712659186.4954,
+      "updatedAt": "2026-08-02T23:43:13.942Z",
       "source": "scan"
     },
     "tests/e2e/foundation.spec.ts": {
       "description": "Declares viewports",
-      "tokens": 397,
-      "hash": "6a823f4989d48118",
-      "size": 1389,
-      "mtimeMs": 1785454750363.4634,
-      "updatedAt": "2026-07-31T13:40:06.200Z",
+      "tokens": 622,
+      "hash": "8d19cb946f684a19",
+      "size": 2175,
+      "mtimeMs": 1785550480567.936,
+      "updatedAt": "2026-08-02T23:43:13.943Z",
       "source": "scan"
     },
     "tests/e2e/run-tests.mjs": {
       "description": "port: stopServer, waitForServer",
-      "tokens": 445,
-      "hash": "ace106354c429c62",
-      "size": 1666,
-      "mtimeMs": 1785463739167.928,
-      "updatedAt": "2026-07-31T13:40:06.202Z",
+      "tokens": 463,
+      "hash": "03e4a0ecf87f6ebd",
+      "size": 1736,
+      "mtimeMs": 1785506758184.179,
+      "updatedAt": "2026-08-02T23:43:13.943Z",
+      "source": "scan"
+    },
+    "tests/e2e/services.spec.ts": {
+      "description": "Declares viewports",
+      "tokens": 402,
+      "hash": "e15fba0f79df682d",
+      "size": 1404,
+      "mtimeMs": 1785550480569.9358,
+      "updatedAt": "2026-08-02T23:43:13.943Z",
       "source": "scan"
     },
     "tsconfig.json": {
       "description": "TypeScript configuration",
-      "tokens": 202,
-      "hash": "acf32a7a05946561",
-      "size": 704,
-      "mtimeMs": 1785454712277.0205,
-      "updatedAt": "2026-07-31T13:40:06.202Z",
+      "tokens": 213,
+      "hash": "ca26bae4e156c255",
+      "size": 744,
+      "mtimeMs": 1785506758186.2397,
+      "updatedAt": "2026-08-02T23:43:13.943Z",
       "source": "scan"
     },
     "tsconfig.tsbuildinfo": {
       "description": "",
-      "tokens": 36908,
-      "hash": "052cb7e9ca8f7194",
-      "size": 138404,
-      "mtimeMs": 1785463792536.05,
-      "updatedAt": "2026-07-31T13:40:06.203Z",
+      "tokens": 37534,
+      "hash": "650e8c997bf88f47",
+      "size": 140751,
+      "mtimeMs": 1785713030673.0667,
+      "updatedAt": "2026-08-02T23:43:13.945Z",
       "source": "scan"
     },
     "VALIDATION.md": {
@@ -591,16 +1274,16 @@
       "hash": "ff8803722dea1d58",
       "size": 1438,
       "mtimeMs": 1785448061000,
-      "updatedAt": "2026-07-31T13:40:06.203Z",
+      "updatedAt": "2026-08-02T23:43:13.945Z",
       "source": "scan"
     },
     "vitest.config.ts": {
       "description": "Vitest test configuration",
-      "tokens": 65,
-      "hash": "f9eb37ea9f259ae5",
-      "size": 225,
-      "mtimeMs": 1785454422155.173,
-      "updatedAt": "2026-07-31T13:40:06.203Z",
+      "tokens": 68,
+      "hash": "a0e1e7fa8789dbe1",
+      "size": 237,
+      "mtimeMs": 1785506758188.4883,
+      "updatedAt": "2026-08-02T23:43:13.946Z",
       "source": "scan"
     }
   }

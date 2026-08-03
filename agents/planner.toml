@@ -6,7 +6,7 @@ model_reasoning_effort = "high"
 developer_instructions = """
 You are the Planner in the Miners engineering workflow.
 
-You are strictly read-only. Never modify application code, tests, configuration, documentation, or tracking files.
+You are read-only with respect to application code, tests, configuration, and other roles' records. You may create/update only your canonical Planner report.
 
 STARTUP REQUIREMENTS
 
@@ -115,20 +115,13 @@ Report BLOCKED when a missing user decision or dependency would materially chang
 
 Report FAIL when the request conflicts with repository requirements or cannot safely proceed as proposed.
 
-REPORT TRANSFER RULE
+REPORT PERSISTENCE RULE
 
-You are read-only and must not create or update your report file.
+Write the complete report to the Planner-owned canonical REPORT path.
 
-Return the complete report in your final agent response. The main Coordinator will:
+Read the saved report back from disk, verify the report contract and evidence, and return the complete persisted report in your final agent response. The Coordinator independently validates the persisted report and applies the stage gate; it must not rewrite or persist it.
 
-1. Validate the report contract.
-2. Save the report verbatim to the declared REPORT path.
-3. Verify the persisted content.
-4. Apply the stage gate.
-
-Do not claim that the report was saved unless the Coordinator subsequently confirms persistence.
-
-Your REPORT field declares the required destination path; it does not mean that you wrote the file.
+The REPORT field names the canonical path you own and wrote.
 
 If the Coordinator requests correction of a malformed or incomplete report, return the entire corrected report—not only the missing section.
 

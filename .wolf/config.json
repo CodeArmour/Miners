@@ -73,7 +73,9 @@
     },
     "agents": [
       "claude",
-      "codex"
+      "codex",
+      "gemini",
+      "cursor"
     ]
   }
 }

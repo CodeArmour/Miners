@@ -2,7 +2,7 @@
 
 > OpenWolf's learning memory. Updated automatically as the AI learns from interactions.
 > Do not edit manually unless correcting an error.
-> Last updated: 2026-07-30
+> Last updated: 2026-08-02
 
 ## User Preferences
 
@@ -11,6 +11,7 @@
 ## Key Learnings
 
 - **Project:** miners
+- **Description:** Copy the contents of this folder into the root of your real project. Merge `AGENTS.md` carefully if your project already has repository instructions, and preserve any existing OpenWolf block.
 
 ## Do-Not-Repeat
 

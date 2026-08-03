@@ -1,14 +1,7 @@
 {
-  "last_heartbeat": "2026-07-31T15:26:28.988Z",
-  "engine_status": "running",
-  "execution_log": [
-    {
-      "task_id": "memory-consolidation",
-      "status": "success",
-      "timestamp": "2026-07-31T00:00:00.013Z",
-      "duration_ms": 5
-    }
-  ],
+  "last_heartbeat": null,
+  "engine_status": "initialized",
+  "execution_log": [],
   "dead_letter_queue": [],
   "upcoming": []
 }
