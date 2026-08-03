@@ -17,6 +17,8 @@ for (const viewport of viewports) {
     await page.goto("/services");
     await expect(page.getByRole("heading", { level: 1, name: /software built around the way your business works/i })).toBeVisible();
     await expect(page.getByRole("contentinfo")).toHaveCount(1);
+    await expect(page.locator('.nav-submenu a[href="/services#delivery"]')).toHaveAttribute("href", "/services#delivery");
+    await expect(page.locator('.nav-submenu a[href="/services#packages"]')).toHaveAttribute("href", "/services#packages");
     const axe = await new AxeBuilder({ page }).analyze();
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
     await page.screenshot({ path: `test-results/MINERS-003/services-${viewport.name}.png`, fullPage: true });

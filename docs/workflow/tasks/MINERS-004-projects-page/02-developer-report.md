@@ -78,6 +78,12 @@ The Figma node supplied temporary visual asset URLs; CSS compositions were used 
 
 Read `.wolf/anatomy.md` before repository inspection and `.wolf/cerebrum.md` before code generation. Existing OpenWolf and governance modifications were preserved. No commit or push was performed.
 
+### Services anchor correction
+
+Stable IDs are now present in server-rendered `src/app/services/page.tsx` for `packages`, `beyond-build`, `engagement`, `delivery`, and `proof`. The previous client-only alias effect was removed because it could run after browser hash navigation. `tests/e2e/services.spec.ts` asserts `/services#packages` and `/services#delivery` across 375×812, 768×1024, and 1440×900; the full E2E suite passed 9/9.
+
+Additional changed files for this correction: `src/app/services/page.tsx` and `tests/e2e/services.spec.ts`.
+
 ### Report persistence verification
 
 This report was written to `docs/workflow/tasks/MINERS-004-projects-page/02-developer-report.md`, read back from disk, and verified to contain all required sections plus exactly one final `EVIDENCE:` and `HANDOFF:` field.
@@ -90,5 +96,5 @@ AGENT: Developer
 STATUS: PASS
 TASK: MINERS-004 — Projects Page from Figma
 REPORT: docs/workflow/tasks/MINERS-004-projects-page/02-developer-report.md
-EVIDENCE: Corrected MINERS-004-QA-001 in `src/app/projects/page.tsx` by replacing the Unicode Ask Miners glyph with inline SVG `Spark`; lint 0; type-check 0; unit tests 3/3; build 0; E2E 9/9; Projects Axe/console/page-error/failed-request/overflow checks all 0; exactly one footer per tested route; screenshots 3 under `test-results/MINERS-004`; HTTP `/projects`, `/`, `/services` all 200; production process stopped and port released; diff-check 0; audit limitation disclosed.
+EVIDENCE: Corrected MINERS-004-QA-001 in `src/app/projects/page.tsx` by replacing the Unicode Ask Miners glyph with inline SVG `Spark`; fixed Services hash navigation with stable IDs in `src/app/services/page.tsx` and href assertions in `tests/e2e/services.spec.ts`; lint 0; type-check 0; unit tests 3/3; build 0; E2E 9/9; Projects Axe/console/page-error/failed-request/overflow checks all 0; exactly one footer per tested route; screenshots 3 under `test-results/MINERS-004`; HTTP `/projects`, `/`, `/services` all 200; production process stopped and port released; diff-check 0; audit limitation disclosed.
 HANDOFF: QA — independently revalidate MINERS-004-QA-001 and AC-001 through AC-012, including SVG icon provenance and all regression, responsive, accessibility, visual, runtime, asset, and Git-preservation checks.

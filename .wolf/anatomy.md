@@ -1,16 +1,17 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-08-02T23:43:13.952Z
-> Files: 135 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-08-03T01:51:15.724Z
+> Files: 165 tracked | Anatomy hits: 0 | Misses: 0
 
 ## ./
 
 - `.gitignore` — Git ignore rules (~71 tok)
-- `AGENTS.md` — OpenWolf (~3459 tok)
+- `AGENTS.md` — OpenWolf (~3460 tok)
 - `bash.exe.stackdump` (~319 tok)
 - `CLAUDE.md` — OpenWolf (~57 tok)
+- `debug.log` (~22 tok)
 - `eslint.config.mjs` — ESLint flat configuration (~107 tok)
-- `GEMINI.md` — OpenWolf (~68 tok)
+- `GEMINI.md` — OpenWolf (~70 tok)
 - `next-env.d.ts` — / <reference types="next" /> (~73 tok)
 - `next.config.ts` — Next.js configuration (~40 tok)
 - `package-lock.json` — npm lock file (~81080 tok)
@@ -21,7 +22,7 @@
 - `README.md` — Project documentation (~273 tok)
 - `START-CODEX-PROMPT.md` — Coordinator Startup Prompt (~322 tok)
 - `tsconfig.json` — TypeScript configuration (~213 tok)
-- `tsconfig.tsbuildinfo` (~37534 tok)
+- `tsconfig.tsbuildinfo` (~37929 tok)
 - `VALIDATION.md` — Package and Workflow Validation (~359 tok)
 - `vitest.config.ts` — Vitest test configuration (~68 tok)
 
@@ -45,11 +46,11 @@
 
 ## .codex/agents/
 
-- `developer.toml` — Implements approved scope, maintains tests, and supplies reproducible evidence. (~715 tok)
-- `planner.toml` (~644 tok)
-- `qa.toml` (~744 tok)
-- `reviewer.toml` (~674 tok)
-- `status.toml` (~606 tok)
+- `developer.toml` (~725 tok)
+- `planner.toml` (~652 tok)
+- `qa.toml` (~754 tok)
+- `reviewer.toml` (~684 tok)
+- `status.toml` (~614 tok)
 
 ## .codex/prompts/
 
@@ -58,20 +59,20 @@
 
 ## .cursor/rules/
 
-- `openwolf.mdc` (~87 tok)
+- `openwolf.mdc` (~89 tok)
 
 ## agents/
 
 - `developer.toml` (~3464 tok)
-- `planner.toml` (~1488 tok)
-- `qa.toml` (~1538 tok)
-- `reviewer.toml` (~1228 tok)
-- `status.toml` (~1268 tok)
+- `planner.toml` (~1490 tok)
+- `qa.toml` (~1539 tok)
+- `reviewer.toml` (~1230 tok)
+- `status.toml` (~1269 tok)
 
 ## docs/workflow/
 
 - `README.md` — Project documentation (~275 tok)
-- `task-registry.md` — Task Registry (~317 tok)
+- `task-registry.md` — Task Registry (~440 tok)
 
 ## docs/workflow/tasks/MINERS-000-nextjs-project-foundation/
 
@@ -186,6 +187,45 @@
 - `round-01-qa-prompt.md` — QA Revalidation Prompt — MINERS-003 Round 01 (~1066 tok)
 - `round-01-reviewer-prompt.md` — Reviewer Re-review Prompt — MINERS-003 Round 01 (~1039 tok)
 
+## docs/workflow/tasks/MINERS-004-projects-page/
+
+- `00-task-brief.md` — MINERS-004 — Projects Page from Figma (~666 tok)
+- `01-planner-report.md` — MINERS-004 — Projects Page from Figma (~4367 tok)
+- `02-developer-report.md` — MINERS-004 — Projects Page from Figma (~2069 tok)
+- `03-qa-report.md` — MINERS-004 — Projects Page from Figma (~1475 tok)
+- `04-reviewer-report.md` — MINERS-004 — Projects Page from Figma (~1444 tok)
+- `05-status-report.md` — MINERS-004 — Status Report (~1390 tok)
+
+## docs/workflow/tasks/MINERS-004-projects-page/defects/
+
+- `MINERS-004-QA-001.md` — MINERS-004-QA-001 — Projects Ask Miners control uses improvised Unicode iconography (~350 tok)
+
+## docs/workflow/tasks/MINERS-004-projects-page/prompts/
+
+- `01-planner-prompt.md` — Planner Prompt — MINERS-004 Projects Page from Figma (~1015 tok)
+- `02-developer-prompt.md` — Developer Prompt — MINERS-004 Projects Page from Figma (~1364 tok)
+- `03-qa-prompt.md` — QA Prompt — MINERS-004 Projects Page from Figma (~1056 tok)
+- `04-reviewer-prompt.md` — Reviewer Prompt — MINERS-004 Projects Page from Figma (~1070 tok)
+- `05-status-prompt.md` — Status Prompt — MINERS-004 Projects Page from Figma (~1160 tok)
+
+## docs/workflow/tasks/MINERS-004-projects-page/prompts/corrections/
+
+- `round-01-developer-prompt.md` — Developer Correction Prompt — MINERS-004 Round 01 (~989 tok)
+- `round-01-planner-prompt.md` — Planner Correction Prompt — MINERS-004 Round 01 (~574 tok)
+- `round-01-qa-prompt.md` — QA Revalidation Prompt — MINERS-004 Round 01 (~1084 tok)
+
+## docs/workflow/tasks/MINERS-005-about-page/
+
+- `00-task-brief.md` — MINERS-005 — About Page from Figma (~645 tok)
+- `01-planner-report.md` — MINERS-005 — About Page from Figma (~3663 tok)
+- `02-developer-report.md` — MINERS-005 — About Page from Figma (~2150 tok)
+
+## docs/workflow/tasks/MINERS-005-about-page/prompts/
+
+- `01-planner-prompt.md` — Planner Prompt — MINERS-005 About Page from Figma (~1018 tok)
+- `02-developer-prompt.md` — Developer Prompt — MINERS-005 About Page from Figma (~1327 tok)
+- `03-qa-prompt.md` — QA Prompt — MINERS-005 About Page from Figma (~1061 tok)
+
 ## docs/workflow/templates/
 
 - `correction-round.md` — Correction Round (~163 tok)
@@ -199,7 +239,7 @@
 
 ## src/app/
 
-- `globals.css` — Styles: 96 rules, 29 vars (~16476 tok)
+- `globals.css` — Styles: 96 rules, 29 vars (~21241 tok)
 - `layout.tsx` — metadata (~192 tok)
 - `page.test.tsx` — html (~171 tok)
 - `page.tsx` — services — uses useState, useEffect (~6707 tok)
@@ -207,22 +247,38 @@
   - fn `ArrowButton` L165-185 (~100 tok)
   - fn `Home` L186-734 (~5282 tok)
 
+## src/app/about/
+
+- `page.test.tsx` — html (~183 tok)
+- `page.tsx` — principles — uses useState (~2104 tok)
+  - fn `Arrow` L25-25 (~65 tok)
+  - fn `Spark` L26-27 (~76 tok)
+  - fn `AboutPage` L28-46 (~1616 tok)
+
+## src/app/projects/
+
+- `page.test.tsx` — html (~169 tok)
+- `page.tsx` — filters — uses useState, useMemo (~2368 tok)
+  - fn `Arrow` L18-18 (~65 tok)
+  - fn `Spark` L19-20 (~76 tok)
+  - fn `ProjectsPage` L21-36 (~1647 tok)
+
 ## src/app/services/
 
 - `page.test.tsx` — html (~190 tok)
-- `page.tsx` — capabilities — uses useState, useEffect (~4084 tok)
+- `page.tsx` — capabilities — uses useState, useEffect (~3978 tok)
   - fn `Icon` L146-170 (~179 tok)
   - fn `Arrow` L171-174 (~16 tok)
-  - fn `ServicesPage` L175-444 (~2774 tok)
+  - fn `ServicesPage` L175-432 (~2666 tok)
 
 ## src/components/
 
 - `feature-card.tsx` — accentClasses (~382 tok)
 - `foundation-status.tsx` — FoundationStatus (~142 tok)
-- `site-footer.tsx` — SiteFooter (~199 tok)
-- `site-header.tsx` — Icon — uses useState, useEffect (~793 tok)
-  - fn `Icon` L7-11 (~122 tok)
-  - fn `SiteHeader` L12-18 (~620 tok)
+- `site-footer.tsx` — SiteFooter (~197 tok)
+- `site-header.tsx` — Icon — uses useState, useEffect (~1040 tok)
+  - fn `Icon` L8-12 (~122 tok)
+  - fn `SiteHeader` L13-19 (~872 tok)
 - `theme-context.tsx` — ThemeContext — uses useState, useContext (~152 tok)
 
 ## src/hooks/
@@ -237,6 +293,11 @@
 
 - `foundation.ts` — Exports FoundationFeature (~29 tok)
 
+## test-results/
+
+- `MINERS-005-start.err.log` (~0 tok)
+- `MINERS-005-start.log` (~0 tok)
+
 ## test-results/MINERS-000/playwright/
 
 - `.last-run.json` (~13 tok)
@@ -247,6 +308,8 @@
 
 ## tests/e2e/
 
+- `about.spec.ts` — Declares viewports (~572 tok)
 - `foundation.spec.ts` — Declares viewports (~622 tok)
+- `projects.spec.ts` — Declares viewports (~522 tok)
 - `run-tests.mjs` — port: stopServer, waitForServer (~463 tok)
-- `services.spec.ts` — Declares viewports (~402 tok)
+- `services.spec.ts` — Declares viewports (~471 tok)

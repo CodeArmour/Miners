@@ -185,22 +185,6 @@ export default function ServicesPage() {
     }, 5000);
     return () => window.clearInterval(timer);
   }, [packagePage]);
-  useEffect(() => {
-    const aliases: Record<string, string> = {
-      packages: "packages-title",
-      engagement: "engagement-title",
-      delivery: "delivery-title",
-      proof: "proof-title",
-    };
-    Object.entries(aliases).forEach(([alias, heading]) =>
-      document
-        .getElementById(heading)
-        ?.parentElement?.setAttribute("id", alias),
-    );
-    document
-      .querySelector(".services-feature")
-      ?.setAttribute("id", "beyond-build");
-  }, []);
   return (
     <main
       className={dark ? "home home-dark services-page" : "home services-page"}
@@ -267,6 +251,7 @@ export default function ServicesPage() {
         </div>
       </section>
       <section
+        id="packages"
         className="packages-section section-shell"
         aria-labelledby="packages-title"
       >
@@ -311,7 +296,7 @@ export default function ServicesPage() {
           ))}
         </div>
       </section>
-      <section className="services-feature section-shell">
+      <section id="beyond-build" className="services-feature section-shell">
         <div className="services-feature-copy">
           <p className="eyebrow">Beyond the build</p>
           <h2>Good software starts before the first line of code.</h2>
@@ -333,6 +318,7 @@ export default function ServicesPage() {
       </section>
       <section
         className="services-section section-shell"
+        id="engagement"
         aria-labelledby="engagement-title"
       >
         <p className="eyebrow">Ways to work together</p>
@@ -349,6 +335,7 @@ export default function ServicesPage() {
       </section>
       <section
         className="services-section section-shell"
+        id="delivery"
         aria-labelledby="delivery-title"
       >
         <p className="eyebrow">How delivery works</p>
@@ -366,6 +353,7 @@ export default function ServicesPage() {
         </ol>
       </section>
       <section
+        id="proof"
         className="services-proof section-shell"
         aria-labelledby="proof-title"
       >
