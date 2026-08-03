@@ -2,7 +2,7 @@
 
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useTheme } from "@/components/theme-context";
 
 const capabilities = [
@@ -175,18 +175,16 @@ function Arrow() {
 export default function ServicesPage() {
   const { dark } = useTheme();
   const [chatOpen, setChatOpen] = useState(false);
-  const [packagePage, setPackagePage] = useState(0);
-  const packagePages = Array.from(
-    { length: Math.ceil(packages.length / 3) },
-    (_, index) => packages.slice(index * 3, index * 3 + 3),
-  );
+  const [packagePage, setPackagePage] = useState(1);
+  const packagesRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
-    const timer = window.setInterval(
-      () => setPackagePage((page) => (page + 1) % packagePages.length),
-      5000,
-    );
+    const timer = window.setInterval(() => {
+      const next = packagePage === 1 ? 2 : 1;
+      packagesRef.current?.scrollTo({ left: (next - 1) * (packagesRef.current.clientWidth + 18), behavior: "smooth" });
+      setPackagePage(next);
+    }, 5000);
     return () => window.clearInterval(timer);
-  }, [packagePages.length]);
+  }, [packagePage]);
   useEffect(() => {
     const aliases: Record<string, string> = {
       packages: "packages-title",
@@ -276,8 +274,17 @@ export default function ServicesPage() {
         <h2 id="packages-title">
           A clear starting point for every kind of build.
         </h2>
-        <div key={packagePage} className="packages-grid package-slide">
-          {packagePages[packagePage].map(
+        <div
+          className="packages-grid"
+          ref={packagesRef}
+          tabIndex={0}
+          aria-label="Packages carousel"
+          onScroll={(event) => {
+            const target = event.currentTarget;
+            setPackagePage(target.scrollLeft > target.clientWidth * 0.2 ? 2 : 1);
+          }}
+        >
+          {packages.map(
             ([number, title, description, includes]) => (
               <article className="package-card" key={number}>
                 <span className="package-number">{number}</span>
@@ -298,43 +305,10 @@ export default function ServicesPage() {
             ),
           )}
         </div>
-        <div
-          className="package-controls"
-          aria-label="Packages carousel controls"
-        >
-          <button
-            type="button"
-            className="package-arrow focus-ring"
-            aria-label="Previous packages"
-            onClick={() =>
-              setPackagePage(
-                (page) =>
-                  (page - 1 + packagePages.length) % packagePages.length,
-              )
-            }
-          >
-            <Arrow />
-          </button>
-          {packagePages.map((_, index) => (
-            <button
-              type="button"
-              className={`package-dot focus-ring${index === packagePage ? " is-active" : ""}`}
-              aria-label={`Show packages page ${index + 1}`}
-              aria-pressed={index === packagePage}
-              onClick={() => setPackagePage(index)}
-              key={index}
-            />
+        <div className="review-pagination project-pagination" aria-label="Packages carousel pages">
+          {[1, 2].map((page) => (
+            <button type="button" className={`pagination-dot focus-ring ${packagePage === page ? "is-active" : ""}`} aria-label={`Show packages page ${page}`} aria-pressed={packagePage === page} onClick={() => { packagesRef.current?.scrollTo({ left: (page - 1) * ((packagesRef.current?.clientWidth ?? 0) + 18), behavior: "smooth" }); setPackagePage(page); }} key={page} />
           ))}
-          <button
-            type="button"
-            className="package-arrow focus-ring next"
-            aria-label="Next packages"
-            onClick={() =>
-              setPackagePage((page) => (page + 1) % packagePages.length)
-            }
-          >
-            <Arrow />
-          </button>
         </div>
       </section>
       <section className="services-feature section-shell">

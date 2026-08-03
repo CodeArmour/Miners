@@ -3,9 +3,7 @@
 
 @.wolf/OPENWOLF.md
 
-This project uses OpenWolf for context management. Read and follow
-`.wolf/OPENWOLF.md` every session. Check `.wolf/anatomy.md` before inspecting
-repository files and `.wolf/cerebrum.md` before generating code.
+This project uses OpenWolf for context management. Read and follow .wolf/OPENWOLF.md every session. Check .wolf/cerebrum.md before generating code. Check .wolf/anatomy.md before reading files.
 <!-- openwolf:end -->
 
 # Miners manual multi-agent workflow
