@@ -8,6 +8,7 @@
 | MINERS-003 | Services Page from Figma | PASSED | `docs/workflow/tasks/MINERS-003-services-page/` | 2026-08-01 | Status PASS verified; all lifecycle gates passed; AC-001 through AC-012 passed; MINERS-003-REV-001 VERIFIED_CLOSED; Reviewer APPROVE |
 | MINERS-004 | Projects Page from Figma | PASSED | `docs/workflow/tasks/MINERS-004-projects-page/` | 2026-08-03 | Status PASS verified; all lifecycle gates passed; AC-001 through AC-012 passed; MINERS-004-QA-001 VERIFIED_CLOSED; Reviewer APPROVE |
 | MINERS-005 | About Page from Figma | PASSED | `docs/workflow/tasks/MINERS-005-about-page/` | 2026-08-03 | Status PASS verified; all lifecycle gates passed; AC-001 through AC-012 passed; no defects; Reviewer APPROVE |
+| MINERS-006 | Careers, Contact, and Global UI States from Figma | PASSED | `docs/workflow/tasks/MINERS-006-careers-contact/` | 2026-08-04 | Status PASS with LIFECYCLE: PASSED; AC-001 through AC-014 passed; QA-001 VERIFIED_CLOSED; Reviewer APPROVE |
 
 Valid lifecycle values: `DRAFT`, `PLANNED`, `IMPLEMENTED`, `QA_PASSED`, `CHANGES_REQUESTED`, `BLOCKED`, `PASSED`, `CANCELLED`.
 
